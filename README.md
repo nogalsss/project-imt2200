@@ -5,9 +5,8 @@ Datos obtenidos desde las APIs de **IGDB** y **Steam**, procesados con Python.
 
 ## 📂 Archivos
 - `data/igdb_games.csv` → ~38k juegos (1980–2025) descargados desde IGDB.  
-- `data/steam_games.csv` → Top de juegos activos desde Steam API.  
 - `notebooks/prueba1.ipynb` → Conexión + EDA IGDB.  
-- `notebooks/prueba2_steam.ipynb` → Conexión + EDA Steam.
+
 
 ## 🧠 Resultados
 - **PC** domina como plataforma principal.  
