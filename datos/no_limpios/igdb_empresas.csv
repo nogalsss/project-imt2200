@@ -1,0 +1,1131 @@
+id,country,name,slug,start_date,parent
+26,392.0,Square Enix,square-enix,1049155200.0,
+29,840.0,Rockstar Games,rockstar-games,912470400.0,139.0
+37,392.0,Capcom,capcom,296870400.0,
+38,124.0,Ubisoft Montreal,ubisoft-montreal,859852800.0,104.0
+50,840.0,WB Games,wb-games,757296000.0,1633.0
+51,840.0,Blizzard Entertainment,blizzard-entertainment,765072000.0,179.0
+70,392.0,Nintendo,nintendo,-2533161600.0,
+82,840.0,Atari,atari,70848000.0,34855.0
+110,250.0,Focus Entertainment,focus-entertainment,851990400.0,
+139,840.0,Take-Two Interactive,take-two-interactive,757296000.0,
+1,840.0,Electronic Arts,electronic-arts,391392000.0,
+73,840.0,Aspyr Media,aspyr-media,828230400.0,42782.0
+78,,Snowblind Studios,snowblind-studios,,
+104,250.0,Ubisoft Entertainment,ubisoft-entertainment,512352000.0,
+112,392.0,Sega,sega,1585699200.0,2211.0
+129,392.0,Konami,konami,-24710400.0,
+251,392.0,SUNSOFT,sunsoft,276048000.0,
+290,208.0,IO Interactive,io-interactive,905904000.0,
+331,528.0,Triumph Studios,triumph-studios,883526400.0,517.0
+517,752.0,Paradox Interactive,paradox-interactive,915062400.0,
+17,124.0,Digital Extremes,digital-extremes,757296000.0,
+116,203.0,Bohemia Interactive Studio,bohemia-interactive-studio,938649600.0,
+152,840.0,MicroProse,microprose,1577750400.0,
+404,250.0,Cyanide Studio,cyanide-studio,978220800.0,24760.0
+486,826.0,Sports Interactive,sports-interactive,774748800.0,112.0
+858,392.0,Koei Tecmo Games,koei-tecmo-games,1270080000.0,8482.0
+954,152.0,ACE Team,ace-team,1041292800.0,
+955,124.0,Blue Isle Studios,blue-isle-studios,1293753600.0,
+1031,826.0,Core Design,core-design--2,579484800.0,
+1097,250.0,Shiro Games,shiro-games,1356912000.0,8623.0
+345,,Think & Feel,think-feel,,
+363,410.0,GRAVITY,gravity,,
+537,752.0,Massive Entertainment,massive-entertainment,883526400.0,104.0
+766,840.0,Retro Studios,retro-studios,915062400.0,773.0
+1221,392.0,Artdink,artdink,514425600.0,
+1443,203.0,SCS Software,scs-software,859766400.0,
+1901,,Reef Entertainment,reef-entertainment,,
+2066,,Nova Games,nova-games,,
+2237,,SideQuest Studios,sidequest-studios,,
+2262,840.0,NIS America,nis-america,1072224000.0,1405.0
+8,840.0,2K Games,2k-games,1106611200.0,139.0
+58,752.0,Mojang Studios,mojang-studios,1241136000.0,17966.0
+61,250.0,Gameloft,gameloft,945129600.0,
+66,840.0,Activision,activision,307584000.0,179.0
+71,840.0,Raven Software,raven-software,662601600.0,66.0
+126,840.0,Bethesda Game Studios,bethesda-game-studios,1009756800.0,16565.0
+148,840.0,Gearbox Software,gearbox-software,919123200.0,42845.0
+175,100.0,Haemimont Games,haemimont-games,873072000.0,517.0
+196,124.0,Relic Entertainment,relic-entertainment,883526400.0,2211.0
+233,124.0,Piranha Games,piranha-games,978220800.0,
+47,840.0,Obsidian Entertainment,obsidian-entertainment,1072828800.0,17966.0
+94,752.0,EA Digital Illusions CE,ea-digital-illusions-ce,1167523200.0,1.0
+191,392.0,Imagineer,imagineer,507168000.0,
+347,826.0,Criterion Games,criterion-games,820454400.0,1.0
+449,,D3 Publisher,d3-publisher,,5222.0
+571,276.0,Out Of The Park Developments,out-of-the-park-developments,,
+716,840.0,Natsume Inc.,natsume-inc,820368000.0,
+800,392.0,Jupiter Corporation,jupiter-corporation,708220800.0,
+830,392.0,Sega AM2,sega-am2,662601600.0,112.0
+915,840.0,Crate Entertainment,crate-entertainment,1230681600.0,
+41,840.0,Riot Games,riot-games,1156982400.0,3595.0
+85,840.0,Double Fine Productions,double-fine-productions,962409600.0,17966.0
+208,826.0,Frontier Developments,frontier-developments,757382400.0,
+224,840.0,3D Realms,3d-realms,567907200.0,946.0
+284,840.0,Maxis,maxis,536457600.0,1.0
+398,156.0,Ubisoft Shanghai,ubisoft-shanghai,851990400.0,104.0
+421,392.0,Nintendo EAD,nintendo-ead,631065600.0,70.0
+454,124.0,EA Sports,ea-sports,694137600.0,1.0
+610,840.0,Monster Games,monster-games,851990400.0,
+645,826.0,Firefly Studios,firefly-studios,946598400.0,
+108,616.0,Techland,techland,694137600.0,
+256,410.0,NCSOFT,ncsoft,883526400.0,
+318,826.0,Rebellion Developments,rebellion-developments,723427200.0,
+366,840.0,Epyx,epyx,441676800.0,
+385,36.0,Krome Studios,krome-studios,946598400.0,
+583,124.0,Ironclad Games,ironclad-games,,
+711,840.0,Psyonix,psyonix,978220800.0,17463.0
+780,276.0,Digitalmindsoft,digitalmindsoft,1167523200.0,
+928,840.0,Supergiant Games,supergiant-games,1262217600.0,
+1260,124.0,Behaviour Interactive,behaviour-interactive,883526400.0,
+79,250.0,Magic Pockets,magic-pockets,978220800.0,
+146,124.0,Strategy First,strategy-first,662601600.0,
+439,826.0,Sumo Digital,sumo-digital,1072828800.0,44203.0
+694,840.0,Visual Concepts,visual-concepts,578448000.0,1975.0
+762,392.0,HAL Laboratory,hal-laboratory,319939200.0,70.0
+790,196.0,Wargaming.net,wargaming-net,915062400.0,
+953,752.0,Arrowhead Game Studios,arrowhead-game-studios,1230681600.0,
+1242,752.0,MachineGames,machinegames,1262217600.0,245.0
+1452,826.0,Imagine Software,imagine-software,410140800.0,
+1641,826.0,Hello Games,hello-games,1230681600.0,
+184,840.0,id Software,id-software,665366400.0,245.0
+453,348.0,Zen Studios,zen-studios,978220800.0,42782.0
+474,840.0,Liquid Entertainment,liquid-entertainment,917827200.0,
+482,826.0,Revolution Software,revolution-software,638150400.0,
+555,840.0,EA Orlando,ea-orlando,788832000.0,1.0
+563,840.0,Rainbow Studios,rainbow-studios,536371200.0,10075.0
+1228,840.0,The Behemoth,the-behemoth,1041379200.0,
+2779,840.0,GameLab,gamelab,978220800.0,
+3582,,Activision Publishing,activision-publishing,,179.0
+4593,392.0,Sonic Powered,sonic-powered,891388800.0,
+161,392.0,Konami Digital Entertainment,konami-digital-entertainment,1143676800.0,129.0
+241,840.0,989 Studios,989-studios,891388800.0,907.0
+396,392.0,Dimps,dimps,952300800.0,
+617,392.0,Bandai,bandai,-615168000.0,
+709,616.0,Teyon,teyon,1167523200.0,
+1380,124.0,Red Barrels,red-barrels,1325289600.0,
+1980,,ITL,itl,,
+2116,,SKONEC,skonec,,
+2121,840.0,Iron Galaxy Studios,iron-galaxy-studios,1218758400.0,
+2401,392.0,HuneX,hunex,725760000.0,
+3,840.0,Looking Glass Studios,looking-glass-studios,638841600.0,
+21,840.0,Irrational Games,irrational-games,883526400.0,139.0
+170,392.0,Kojima Productions,kojima-productions,1112313600.0,
+305,246.0,Remedy Entertainment,remedy-entertainment,820368000.0,
+401,840.0,Naughty Dog,naughty-dog,473299200.0,10100.0
+458,578.0,Funcom,funcom,757296000.0,
+578,826.0,Gremlin Interactive,gremlin-interactive,778896000.0,3212.0
+818,392.0,Atlus,atlus,513216000.0,112.0
+843,840.0,Harmonix Music Systems,harmonix-music-systems,788918400.0,
+912,156.0,Snail Games,snail-games,,
+4,826.0,Eidos Interactive,eidos-interactive,833500800.0,
+25,840.0,Ion Storm,ion-storm,848016000.0,
+39,250.0,Ubisoft Annecy,ubisoft-annecy,851990400.0,104.0
+115,826.0,Codemasters,codemasters,504921600.0,1.0
+144,203.0,GSC Game World,gsc-game-world,817257600.0,
+169,724.0,MercurySteam,mercurysteam,1041292800.0,
+280,752.0,Starbreeze Studios,starbreeze-studios,1041292800.0,
+303,392.0,Jaleco,jaleco,149990400.0,18710.0
+313,392.0,Success Corporation,success-corporation,266025600.0,
+326,840.0,Cyan Worlds,cyan-worlds,567907200.0,
+48,840.0,NetherRealm Studios,netherrealm-studios,1293753600.0,50.0
+53,840.0,Microsoft Game Studios,microsoft-game-studios,1009843200.0,128.0
+163,826.0,Climax Studios,climax-studios,1230681600.0,3248.0
+567,,Mind Control,mind-control,,
+961,124.0,BattleGoat Studios,battlegoat-studios,,
+1021,840.0,WayForward Technologies,wayforward-technologies,662601600.0,
+1022,840.0,Turn 10 Studios,turn-10-studios,1009756800.0,17966.0
+1151,392.0,Game Arts,game-arts,478569600.0,2016.0
+1371,,General Arcade,general-arcade,,
+2272,,HandMade Games,handmade-games,,
+213,250.0,Infogrames,infogrames,424483200.0,
+260,,Argonaut Games,argonaut-games,,
+414,191.0,Croteam,croteam,757296000.0,
+437,752.0,Avalanche Studios,avalanche-studios,1046476800.0,45681.0
+862,392.0,Tamsoft,tamsoft,709516800.0,
+1440,392.0,Taito Corporation,taito-corporation,-505008000.0,26.0
+1445,276.0,Rainbow Arts,rainbow-arts,473299200.0,
+1612,752.0,Pan Vision,pan-vision,1009756800.0,
+1613,840.0,Incognito Entertainment,incognito-entertainment,925516800.0,45.0
+1640,840.0,"Discord Games, Inc.",discord-games-inc,1312156800.0,8623.0
+128,840.0,Microsoft,microsoft,165801600.0,
+334,,Sony Computer Entertainment Europe,sony-computer-entertainment-europe,,
+365,826.0,Rockstar North,rockstar-north,1041292800.0,29.0
+426,840.0,Disney Interactive Studios,disney-interactive-studios,1199059200.0,95.0
+427,246.0,Bugbear Entertainment,bugbear-entertainment,951868800.0,10075.0
+696,124.0,HB Studios,hb-studios,,
+774,616.0,QLOC,qloc,1262217600.0,8623.0
+822,702.0,Ubisoft Singapore,ubisoft-singapore,1214870400.0,104.0
+891,36.0,Halfbrick Studios,halfbrick-studios,1009756800.0,
+893,616.0,The Farm 51,the-farm-51,,
+95,840.0,Disney Interactive,disney-interactive,599529600.0,13016.0
+131,840.0,Robot Entertainment,robot-entertainment,1262217600.0,
+321,392.0,Tose,tose,310262400.0,
+530,643.0,Eagle Dynamics,eagle-dynamics,694137600.0,
+966,642.0,KillHouse Games,killhouse-games,1356912000.0,
+1010,,Microsoft Studios,microsoft-studios,1325289600.0,128.0
+1659,203.0,Keen Software House,keen-software-house,1293753600.0,
+2463,246.0,Secret Exit,secret-exit,,
+2490,,Kunos Simulazioni,kunos-simulazioni,,
+2614,840.0,Arcen Games,arcen-games,1262217600.0,
+23,826.0,Feral Interactive,feral-interactive,851990400.0,
+164,826.0,Rocksteady Studios,rocksteady-studios,1104451200.0,50.0
+1207,,Level Infinity,level-infinity,,
+1460,250.0,Plug In Digital,plug-in-digital,1356912000.0,
+1752,392.0,Athena,athena,549504000.0,
+2236,124.0,Freebird Games,freebird-games,,
+2406,840.0,"Atari, Inc.",atari-inc,1052352000.0,12036.0
+3114,840.0,GameHouse,gamehouse,915062400.0,21674.0
+3158,,Knuckle Cracker,knuckle-cracker,,
+3592,208.0,The LEGO Group,the-lego-group,,
+56,840.0,Valve,valve,840844800.0,
+594,250.0,Microïds,microids--1,504835200.0,
+689,702.0,Garena,garena,1262217600.0,
+918,840.0,Fullbright,fullbright,1488326400.0,
+922,840.0,Paramount Pictures,paramount-pictures,-1819324800.0,5642.0
+999,752.0,Coffee Stain Studios,coffee-stain-studios,1287619200.0,42782.0
+1368,36.0,Impromptu Games,impromptu-games,,
+1951,124.0,Silicon Knights,silicon-knights,725760000.0,
+1963,392.0,G.rev,g-rev,,
+2084,36.0,Wicked Witch Software,wicked-witch-software,1009756800.0,
+2,124.0,BioWare,bioware,791596800.0,1.0
+283,840.0,The Sims Studio,the-sims-studio,1167523200.0,1.0
+291,528.0,Nixxes Software,nixxes-software,933465600.0,10100.0
+400,392.0,SCE Japan Studio,sce-japan-studio,757296000.0,13634.0
+748,826.0,Double Eleven,double-eleven,1293753600.0,
+847,124.0,Ubisoft Toronto,ubisoft-toronto,1293753600.0,104.0
+1118,124.0,Torn Banner Studios,torn-banner-studios,,
+1243,348.0,NeocoreGames,neocoregames,1135987200.0,
+1365,,Lucas Pope,lucas-pope,,
+1744,,Human Entertainment,human-entertainment,,
+405,250.0,Spiders,spiders,1230681600.0,
+432,124.0,Beenox,beenox,978220800.0,66.0
+434,840.0,High Moon Studios,high-moon-studios,1009756800.0,66.0
+438,840.0,Infinity Ward,infinity-ward,1041292800.0,
+659,840.0,Sledgehammer Games,sledgehammer-games,1238457600.0,66.0
+739,392.0,Grezzo,grezzo,1164931200.0,
+795,826.0,Ninja Theory,ninja-theory,1072915200.0,17966.0
+897,,Ubisoft Red Storm,ubisoft-red-storm,,
+1093,392.0,Chunsoft,chunsoft,473299200.0,
+1274,392.0,Epoch,epoch,-368323200.0,
+67,840.0,Petroglyph Games,petroglyph-games,1049155200.0,
+255,840.0,ArenaNet,arenanet,978220800.0,256.0
+1220,392.0,Crafts & Meister,crafts-meister,1086048000.0,8623.0
+1532,840.0,Hopoo Games,hopoo-games,1356912000.0,
+1663,826.0,Suspicious Developments,suspicious-developments,1356912000.0,
+1864,840.0,High Impact Games,high-impact-games,1104451200.0,
+2449,840.0,Stoic,stoic,1356912000.0,
+2917,840.0,JumpButton Studio,jumpbutton-studio,1433116800.0,
+2991,,Artificial Studios,artificial-studios,,
+3207,578.0,Red Thread Games,red-thread-games,1346457600.0,
+187,840.0,"Nerve Software, LLC",nerve-software-llc,1009756800.0,
+261,250.0,Quantic Dream,quantic-dream,883526400.0,5501.0
+294,840.0,Telltale Games,telltale-games,1086048000.0,
+492,840.0,Atomic Games,atomic-games,631065600.0,132.0
+613,840.0,2D Boy,2d-boy,,
+722,840.0,343 Industries,343-industries,1183248000.0,17966.0
+1179,840.0,Imangi Studios,imangi-studios,,
+1715,826.0,Facepunch Studios,facepunch-studios,,
+1798,392.0,SystemSoft,systemsoft,,
+2015,392.0,Whoopee Camp,whoopee-camp,883526400.0,
+150,840.0,Hidden Path Entertainment,hidden-path-entertainment,1136073600.0,
+197,840.0,THQ,thq,599616000.0,
+419,392.0,Project Aces,project-aces,,22721.0
+1069,392.0,"SIMS Co., Ltd",sims-co-ltd,676684800.0,
+1349,,Artificial Intelligence Design,artificial-intelligence-design,,
+1531,826.0,22Cans,22cans,1329696000.0,
+1666,826.0,Sega Europe,sega-europe,681004800.0,112.0
+1869,,GOGAME,gogame,,
+2177,724.0,Erbe Software,erbe-software,473299200.0,
+2423,,SoMoGa,somoga,,
+63,840.0,Pandemic Studios,pandemic-studios,915062400.0,1.0
+249,276.0,Crytek,crytek,936144000.0,
+431,840.0,Ready At Dawn,ready-at-dawn,1072828800.0,11586.0
+457,250.0,Eugen Systems,eugen-systems,,
+476,840.0,Matrix Games,matrix-games,946598400.0,8871.0
+494,840.0,Battlefront.com,battlefront-com,883526400.0,
+572,56.0,Appeal Studios,appeal-studios,820368000.0,10075.0
+727,840.0,Oddworld Inhabitants,oddworld-inhabitants,788832000.0,
+749,826.0,SCE Cambridge Studio,sce-cambridge-studio,867974400.0,2291.0
+851,840.0,ZeniMax Online Studios,zenimax-online-studios,1199059200.0,245.0
+111,826.0,The Creative Assembly,the-creative-assembly,556243200.0,112.0
+397,250.0,Darkworks,darkworks,884217600.0,
+828,392.0,Alfa System,alfa-system,,
+942,,Graviteam,graviteam,,
+1061,,Distractionware,distractionware,,
+1095,392.0,Genius Sonority,genius-sonority,1022889600.0,
+1109,752.0,Stunlock Studios,stunlock-studios,1293753600.0,
+1414,,Nexon Co. Ltd.,nexon-co-ltd,,
+1493,840.0,Crescent Moon Games,crescent-moon-games,1262217600.0,
+1897,276.0,Ubisoft Berlin,ubisoft-berlin,1524700800.0,19099.0
+113,840.0,Westwood Studios,westwood-studios,504835200.0,1.0
+245,840.0,ZeniMax Media,zenimax-media,925516800.0,17966.0
+510,56.0,Larian Studios,larian-studios,851990400.0,
+864,392.0,Hudson Soft,hudson-soft,106531200.0,161.0
+1025,392.0,Good-Feel,good-feel,1123027200.0,
+1060,392.0,Vanillaware,vanillaware,1013126400.0,
+2063,392.0,Arzest,arzest,1277424000.0,
+2073,392.0,Toaplan,toaplan,291772800.0,
+2191,,Funbox Media,funbox-media,,
+2205,124.0,Big Blue Bubble,big-blue-bubble,,
+57,124.0,Certain Affinity,certain-affinity,,
+754,,Legacy Interactive,legacy-interactive,,
+768,840.0,Nintendo Software Technology,nintendo-software-technology,915062400.0,2850.0
+856,840.0,Unknown Worlds Entertainment,unknown-worlds-entertainment,1009756800.0,41542.0
+906,702.0,Nabi Studios,nabi-studios,,
+2154,276.0,Keen Games,keen-games,1116460800.0,
+2407,,Apple Inc,apple-inc,,
+2702,,Cyclone Zero,cyclone-zero,,
+3108,,Endnight Games Ltd,endnight-games-ltd,,
+3115,410.0,Bluehole Studio,bluehole-studio,1199059200.0,18506.0
+5,840.0,Interplay Entertainment,interplay-entertainment,441676800.0,
+322,392.0,Matrix Software,matrix-software,770428800.0,
+680,840.0,Pipeworks Software,pipeworks-software,941414400.0,
+1127,36.0,Infinite Interactive,infinite-interactive,,
+1399,724.0,Novarama,novarama,1072828800.0,
+1486,840.0,Strategic Simulations,strategic-simulations,315446400.0,
+1660,,Dejobaan Games,dejobaan-games,,
+1890,458.0,Nimbus Games,nimbus-games,1460937600.0,
+2096,,Lightstorm Entertainment,lightstorm-entertainment,,
+2499,840.0,Hi-Rez Studios,hi-rez-studios,,
+468,124.0,Meridian4,meridian4,1104451200.0,
+741,840.0,Toys for Bob,toys-for-bob,631065600.0,66.0
+810,840.0,Iguana Entertainment,iguana-entertainment,694137600.0,
+943,246.0,Colossal Order,colossal-order,1451606400.0,
+1113,724.0,Tequila Works,tequila-works,1262217600.0,
+1309,840.0,Avalanche Software,avalanche-software,812505600.0,50.0
+1434,124.0,Alientrap Games Inc,alientrap-games-inc,1041292800.0,
+1772,392.0,Marvelous AQL,marvelous-aql,1317427200.0,
+1939,,Daewon Media,daewon-media,,
+2081,124.0,Iron Tower Studio,iron-tower-studio,1104451200.0,8623.0
+179,840.0,Activision Blizzard,activision-blizzard,1230681600.0,128.0
+467,826.0,Digital Integration,digital-integration,410140800.0,9318.0
+731,276.0,bitComposer Games,bitcomposer-games,1235865600.0,
+1419,840.0,Harebrained Schemes,harebrained-schemes,1325289600.0,517.0
+1433,840.0,Undead Labs,undead-labs,1262217600.0,17966.0
+1552,276.0,Astragon,astragon,915062400.0,16437.0
+1664,124.0,Doublespeak Games,doublespeak-games,,
+1904,528.0,Team6 Game Studios,team6-game-studios,1009756800.0,
+2197,840.0,Empty Clip Studios,empty-clip-studios,1181779200.0,
+2277,276.0,Animation Arts,animation-arts,,
+188,840.0,Apogee Software,apogee-software,567907200.0,
+746,826.0,Media Molecule,media-molecule,1136332800.0,2289.0
+805,124.0,Other Ocean Interactive,other-ocean-interactive,1167523200.0,21314.0
+1062,250.0,Ivory Tower,ivory-tower,1199059200.0,7041.0
+1921,,Shonen Jump,shonen-jump,,
+2102,,Zoo Games,zoo-games,,
+2992,643.0,Buka Entertainment,buka-entertainment,,157.0
+3189,,"A Sharp, LLC",a-sharp-llc,,
+3191,578.0,Rain Games,rain-games,,
+3909,392.0,Nigoro,nigoro,1173830400.0,3912.0
+10,840.0,LucasArts,lucasarts,662601600.0,13016.0
+69,,Big Ape Productions,big-ape-productions,,
+229,840.0,Sega of America,sega-of-america,510796800.0,112.0
+279,826.0,4J Studios,4j-studios,1135987200.0,
+1396,203.0,Amanita Design,amanita-design,1072828800.0,
+1398,124.0,Capybara Games,capybara-games,1072828800.0,
+1630,840.0,Nvidia,nvidia,733968000.0,
+1653,528.0,Vlambeer,vlambeer,1283299200.0,
+1836,124.0,Throwback Entertainment,throwback-entertainment,1167523200.0,
+2145,392.0,Tango Gameworks,tango-gameworks,1267401600.0,41542.0
+19,250.0,Arkane Studios,arkane-studios,938736000.0,245.0
+36,752.0,Frictional Games,frictional-games,1167523200.0,
+665,,Williams Entertainment,williams-entertainment,,
+726,840.0,SCE Bend Studio,sce-bend-studio,757296000.0,
+883,,8ing,8ing,,
+937,124.0,WB Games Montréal,wb-games-montreal,1293753600.0,50.0
+1510,,Colossal Order Ltd.,colossal-order-ltd,,
+1642,724.0,Bit Managers,bit-managers,725760000.0,2112.0
+2243,840.0,Hitcents,hitcents,915408000.0,
+2255,826.0,Chillingo,chillingo,,28050.0
+451,840.0,Terminal Reality,terminal-reality,780969600.0,
+660,392.0,Capcom Production Studio 1,capcom-production-studio-1,946598400.0,37.0
+902,276.0,Yager Development,yager-development,928195200.0,
+940,752.0,Paradox Arctic,paradox-arctic,,517.0
+1210,826.0,Gremlin Graphics,gremlin-graphics,473299200.0,
+1759,392.0,Vanpool,vanpool,946598400.0,
+2140,,Pepper Games,pepper-games,,
+2478,36.0,Surprise Attack Games,surprise-attack-games,1374019200.0,
+4191,,O-TWO Inc.,o-two-inc,,
+4715,36.0,epiphany games,epiphany-games,,
+348,826.0,Exient Entertainment,exient-entertainment,,
+420,616.0,Flying Wild Hog,flying-wild-hog,1238544000.0,42785.0
+603,840.0,Humongous Entertainment,humongous-entertainment,720403200.0,2039.0
+826,392.0,Namco Tales Studio,namco-tales-studio,1047254400.0,6330.0
+905,752.0,Overkill Software,overkill-software,1262217600.0,280.0
+1056,276.0,Piranha Bytes,piranha-bytes,852076800.0,10075.0
+1224,826.0,Introversion Software,introversion-software,1009756800.0,
+1397,124.0,Superbrothers A/V Inc,superbrothers-a-slash-v-inc,1072828800.0,
+1740,840.0,Parker Brothers,parker-brothers,-2713996800.0,9794.0
+1767,392.0,Victor Interactive Software,victor-interactive-software,844128000.0,1771.0
+93,392.0,Square Enix 1st Production Department,square-enix-1st-production-department,1283299200.0,26.0
+1030,840.0,Bluepoint Games,bluepoint-games,1167523200.0,10100.0
+1128,840.0,1st Playable Productions,1st-playable-productions,1112313600.0,
+1271,826.0,Ocean Software,ocean-software,441763200.0,213.0
+1987,,Genuine Games,genuine-games,,
+2206,392.0,Shade,shade,,
+2361,840.0,Seismic,seismic,,
+2932,826.0,Ghostlight Ltd.,ghostlight-ltd,1104451200.0,
+2950,276.0,Synetic,synetic,820454400.0,
+3251,,TAKE OFF,take-off,,
+68,840.0,Ensemble Studios,ensemble-studios,820368000.0,128.0
+669,826.0,Spiral House,spiral-house,883612800.0,
+836,392.0,Kadokawa Games,kadokawa-games,1238544000.0,7707.0
+1922,392.0,Racjin,racjin,798076800.0,
+1983,392.0,tri-Ace,tri-ace,795312000.0,
+2024,840.0,Eidetic,eidetic,757296000.0,
+2286,156.0,Original Force,original-force,946598400.0,
+2752,,ScriptArts,scriptarts,,
+2940,,BeeWorks,beeworks,,
+3689,826.0,Roll7,roll7,1230681600.0,14035.0
+264,,HanbitSoft,hanbitsoft,,
+710,840.0,Mastiff,mastiff,,
+1216,,Pyramid,pyramid,,
+1463,276.0,Black Forest Games,black-forest-games,1356912000.0,10075.0
+2399,,Redline Games,redline-games,,
+2412,826.0,Toxic Games,toxic-games,,
+2416,380.0,Raylight Games,raylight-games,,
+2428,392.0,5pb.,5pb,1112745600.0,
+2496,,BlueLine Game Studios,blueline-game-studios,,
+2519,,Sears,sears,,
+12,840.0,Black Isle Studios,black-isle-studios,828230400.0,5.0
+183,840.0,Hasbro Interactive,hasbro-interactive,818380800.0,9794.0
+287,840.0,Acclaim Entertainment,acclaim-entertainment,567907200.0,
+299,124.0,Hellbent Games,hellbent-games,,
+690,36.0,Torus Games,torus-games,788832000.0,
+938,250.0,Coktel Vision,coktel-vision,504835200.0,489.0
+1054,124.0,Next Level Games,next-level-games,1033430400.0,70.0
+1438,,Office Create,office-create,,
+2175,392.0,Artoon,artoon,935712000.0,2213.0
+2363,,Technopop,technopop,,
+27,124.0,Eidos Montréal,eidos-montreal,1175212800.0,71229.0
+55,840.0,Turtle Rock Studios,turtle-rock-studios,1014940800.0,
+865,392.0,Will,will,574992000.0,
+1362,840.0,N-Fusion Interactive,n-fusion-interactive,,
+1639,124.0,Cellar Door Games,cellar-door-games,,
+4063,250.0,Limasse Five,limasse-five,,
+4078,,Experis,experis,,
+4713,246.0,Frogmind,frogmind,,
+5307,203.0,Alda Games,alda-games,1388448000.0,
+6373,,Gala Lab Corp.,gala-lab-corp,,
+75,276.0,Factor 5,factor-5,567907200.0,
+225,840.0,Lobotomy Software,lobotomy-software,757296000.0,667.0
+335,392.0,Square Product Development Division 3,square-product-development-division-3,851990400.0,250.0
+606,840.0,DreamForge Intertainment,dreamforge-intertainment,757296000.0,
+1806,392.0,Bemani,bemani,883526400.0,129.0
+1975,840.0,2K Sports,2k-sports,1106611200.0,8.0
+2418,840.0,Renovation Products,renovation-products,,827.0
+2452,840.0,Big Fish Studios,big-fish-studios,1041292800.0,2245.0
+2482,643.0,Lesta Studio,lesta-studio,693360000.0,790.0
+2730,,Anchor Inc,anchor-inc,,
+1307,,Nick Games,nick-games,,
+2209,392.0,Prope,prope,,
+3055,,Felistella,felistella,,
+3352,,Plaid Hat Games,plaid-hat-games,,
+3712,826.0,Slitherine Software UK Ltd.,slitherine-software-uk-ltd,962668800.0,8871.0
+4016,840.0,Minor Key Games,minor-key-games,,
+4725,826.0,Alternative Software,alternative-software,504835200.0,
+5676,208.0,Logic Artists,logic-artists,1325289600.0,
+7621,,Cloud 9 Studio,cloud-9-studio,,
+7789,826.0,SockMonkey Studios,sockmonkey-studios,,
+327,840.0,Midway Games,midway-games,-347241600.0,
+797,392.0,"h.a.n.d., Inc.",h-dot-a-n-dot-d-inc,899251200.0,
+827,,Telenet Japan,telenet-japan,,
+898,504.0,Ubisoft Casablanca,ubisoft-casablanca,891388800.0,104.0
+1050,826.0,Mode 7,mode-7,1135987200.0,
+1100,392.0,NDCube,ndcube,951868800.0,70.0
+1178,,John Romero,john-romero,,
+1294,,Gaelco,gaelco,,
+1568,392.0,Ancient,ancient,638928000.0,
+1714,826.0,The Bitmap Brothers,the-bitmap-brothers,567907200.0,
+277,124.0,EA Canada,ea-canada,410313600.0,1.0
+340,826.0,Empire Interactive,empire-interactive,567907200.0,
+393,840.0,inXile Entertainment,inxile-entertainment,1029196800.0,17966.0
+728,826.0,Just Add Water (Development) Ltd,just-add-water-development-ltd--1,1167523200.0,
+782,392.0,Marvelous Entertainment,marvelous-entertainment,867196800.0,
+921,752.0,Might and Delight,might-and-delight,1271376000.0,
+963,124.0,Kerberos Productions,kerberos-productions,,
+1166,,Softdisk Publishing,softdisk-publishing,,
+1610,578.0,Innerloop Studios,innerloop-studios,,
+1765,620.0,Nerd Monkeys,nerd-monkeys,,
+72,840.0,Vicarious Visions,vicarious-visions,662601600.0,66.0
+176,724.0,FX Interactive,fx-interactive,946598400.0,
+293,826.0,TT Games,tt-games,1135987200.0,50.0
+1102,392.0,"Mobile & Game Studio, Inc.",mobile-game-studio-inc,,13867.0
+1964,,ESP Software,esp-software,,
+2219,752.0,Zoink,zoink,1009756800.0,16337.0
+3162,840.0,Night Dive Studios,night-dive-studios,1356912000.0,
+3301,,Atari Europe,atari-europe,,12036.0
+3668,826.0,Twilight,twilight,631065600.0,
+3879,752.0,Collecting Smiles,collecting-smiles,,
+1366,392.0,Nintendo EAD Software Development Group No.3,nintendo-ead-software-development-group-no-dot-3,1064880000.0,421.0
+1490,,Phoenix,phoenix,,
+1883,840.0,Vector Unit,vector-unit,1199059200.0,
+2340,826.0,Codemasters Birmingham,codemasters-birmingham,1225497600.0,115.0
+2379,392.0,Pony Canyon,pony-canyon,-102643200.0,3707.0
+2497,840.0,Wolfire Games,wolfire-games,1072828800.0,
+2884,208.0,Gears for Breakfast,gears-for-breakfast,1377993600.0,
+2976,840.0,Autumn Games,autumn-games,1199059200.0,
+3023,826.0,Virtual Programming,virtual-programming,978220800.0,
+4994,,ArtCraft Entertainment,artcraft-entertainment,,
+314,804.0,4A Games,4a-games,1135987200.0,946.0
+356,826.0,Slightly Mad Studios,slightly-mad-studios,1262217600.0,115.0
+1023,,Wizards of the Coast LLC,wizards-of-the-coast-llc,,
+2309,,Ntreev Soft,ntreev-soft,,256.0
+2389,124.0,Digital Leisure,digital-leisure,870393600.0,
+2723,250.0,Streum On Studio,streum-on-studio,1184544000.0,110.0
+2756,,Sony Pictures Television,sony-pictures-television,,
+3188,840.0,Wormwood Studios,wormwood-studios,1293753600.0,
+3923,392.0,Studio Pixel,studio-pixel,978220800.0,
+4614,826.0,Tikipod,tikipod,1262217600.0,
+216,840.0,Glu Mobile,glu-mobile,1009756800.0,28050.0
+648,246.0,Mountain Sheep,mountain-sheep,,
+916,,Cryptic Studios,cryptic-studios,,
+917,840.0,Perfect World Entertainment,perfect-world-entertainment,1212278400.0,42782.0
+1135,,KID,kid,,
+1293,,Team Dakota,team-dakota,,
+1395,124.0,Minmax Games,minmax-games,,
+2619,208.0,Tactile Entertainment,tactile-entertainment,1366761600.0,
+4415,,ProjectorGames,projectorgames,,
+4677,,X-Legend,x-legend,,
+250,392.0,Square,square,431222400.0,
+773,392.0,Nintendo EAD Tokyo Software Development Group No.1,nintendo-ead-tokyo-software-development-group-no-dot-1,1064880000.0,421.0
+831,392.0,Access Games,access-games,1041292800.0,
+832,826.0,Rising Star Games,rising-star-games,1104451200.0,
+1467,,Sammy,sammy,,
+2028,392.0,DreamFactory,dreamfactory,815184000.0,
+2162,840.0,5th Cell,5th-cell,,
+4318,356.0,GodSpeed Games,godspeed-games,,
+5027,,Lino Slahuschek,lino-slahuschek,,
+5157,,HuniePot,huniepot,,
+88,840.0,Shiny Entertainment,shiny-entertainment,749433600.0,4358.0
+824,826.0,Square Enix London Studios,square-enix-london-studios,1257897600.0,4940.0
+1737,826.0,Little Orbit,little-orbit,,
+3690,76.0,TecToy,tectoy,,
+4542,,Eden Industries,eden-industries,,
+4997,,Watermelon Co.,watermelon-co,,
+5352,826.0,Clever Beans,clever-beans,,
+6087,,Milkbag Games,milkbag-games,,
+6176,,The Oliver Twins,the-oliver-twins,,
+7126,,ACE,ace,,
+221,826.0,Splash Damage,splash-damage,988675200.0,
+895,840.0,Heavy Iron Studios,heavy-iron-studios,915148800.0,
+1941,,Universal Pictures,universal-pictures,,
+3634,840.0,Sperasoft,sperasoft,1104451200.0,
+4362,392.0,Edelweiss,edelweiss,,
+4442,840.0,Newgrounds,newgrounds,804988800.0,
+4707,,State of Play Games,state-of-play-games,1230681600.0,
+4753,804.0,Beatshapers,beatshapers,,
+5144,,Brilliant Skies Ltd.,brilliant-skies-ltd,,
+5461,,Game Refuge Inc,game-refuge-inc,,
+579,840.0,Big Huge Games,big-huge-games,949363200.0,8431.0
+1420,724.0,BeautiFun Games,beautifun-games,1325289600.0,
+1464,484.0,Squad,squad,1262217600.0,
+1952,392.0,Sting Entertainment,sting-entertainment,602812800.0,
+1985,,Melbourne House,melbourne-house,,
+2984,36.0,Sega Studios Australia,sega-studios-australia,1041292800.0,
+3083,208.0,Reto-Moto,reto-moto,883526400.0,
+3262,840.0,Ubisoft North America,ubisoft-north-america,1262217600.0,7041.0
+4414,380.0,Haruneko Entertainment,haruneko-entertainment,,
+4535,392.0,Black Tower Studios,black-tower-studios,1356912000.0,
+835,528.0,Ronimo Games,ronimo-games,1172707200.0,
+965,752.0,Ghost Games,ghost-games,1350864000.0,1.0
+1187,,SW Games,sw-games,,
+1651,,Marvel Entertainment,marvel-entertainment,,
+2332,764.0,Corecell Technology,corecell-technology,1041292800.0,
+4109,,Kabam,kabam,,
+4281,,Raptisoft Games,raptisoft-games,1104451200.0,
+4440,840.0,Adult Swim Games,adult-swim-games,1135987200.0,
+4576,,TV Tokyo Corporation,tv-tokyo-corporation,,
+5131,276.0,CipSoft,cipsoft,1009756800.0,
+7,840.0,Visceral Games,visceral-games,1241395200.0,1.0
+357,826.0,Firebrand Games,firebrand-games,,
+910,840.0,Re-Logic,re-logic,1288310400.0,
+1290,826.0,TT Fusion,tt-fusion,1483228800.0,293.0
+2381,,Magical Company,magical-company,,
+2617,392.0,Yuki Enterprise,yuki-enterprise,978220800.0,
+4021,703.0,Eastworks,eastworks,,
+4524,,BitGroove,bitgroove,,
+4678,,Beijing Perfect World,beijing-perfect-world,,
+4820,,Cougar Interactive,cougar-interactive,,
+379,826.0,Full Fat,full-fat,820454400.0,
+899,380.0,Ubisoft Milan,ubisoft-milan,1063152000.0,104.0
+947,792.0,Taleworlds,taleworlds,1135987200.0,
+1785,,SETA Corporation,seta-corporation,,
+1850,392.0,Asmik Ace Entertainment,asmik-ace-entertainment,504835200.0,
+1978,,Team Fusion,team-fusion,,
+2023,392.0,Sony Music Entertainment Japan,sony-music-entertainment-japan,670464000.0,10282.0
+2850,840.0,Nintendo of America,nintendo-of-america,315532800.0,70.0
+2898,,Crowbar Collective,crowbar-collective,,
+4034,276.0,Nintendo of Europe,nintendo-of-europe,644198400.0,70.0
+498,724.0,Pyro Studios,pyro-studios,851990400.0,
+663,392.0,Capcom Production Studio 4,capcom-production-studio-4,946598400.0,37.0
+819,,Neverland,neverland,,
+2502,840.0,Cardboard Computer,cardboard-computer,1274227200.0,
+3078,,En Masse Entertainment,en-masse-entertainment,,
+3351,,Glitch,glitch,,
+4089,840.0,Disastercake,disastercake,1388448000.0,
+4930,826.0,Spiderling Games,spiderling-games,1419984000.0,
+5103,528.0,DoubleDutch Games,doubledutch-games,,
+5111,826.0,Size Five Games,size-five-games,,
+137,752.0,Digital Illusions CE,digital-illusions-ce,757296000.0,
+639,,Strategic Studies Group,strategic-studies-group,,
+1908,,Lucky Chicken Games,lucky-chicken-games,,
+1973,840.0,Twisted Pixel,twisted-pixel,1167523200.0,39621.0
+2097,,20th Century Fox Games,20th-century-fox-games,,
+2848,840.0,eGames,egames,725760000.0,
+3085,840.0,Xaviant,xaviant,1199059200.0,
+3711,392.0,Qute Corporation,qute-corporation,936144000.0,8623.0
+4380,826.0,VooFoo Studios,voofoo-studios,1167609600.0,
+4792,,Sirvo,sirvo,,
+315,840.0,Trion Worlds,trion-worlds,1167523200.0,
+392,840.0,High Voltage Software,high-voltage-software,733622400.0,3248.0
+413,840.0,Human Head Studios,human-head-studios,875664000.0,
+628,826.0,Stainless Games,stainless-games,757296000.0,
+1125,826.0,Kuju Entertainment,kuju-entertainment,915062400.0,
+1920,,Viz Media,viz-media,,
+2048,840.0,Blue Planet Software,blue-planet-software,851990400.0,
+2371,,Revolutionary Concepts,revolutionary-concepts,,
+2488,840.0,Atlus USA,atlus-usa,694137600.0,818.0
+2501,,Overhaul Games,overhaul-games,,
+122,276.0,Crytek Frankfurt,crytek-frankfurt,915148800.0,
+1009,246.0,RedLynx,redlynx,946684800.0,104.0
+1108,528.0,Two Tribes B.V.,two-tribes-b-v,993945600.0,8483.0
+1359,826.0,Ruffian Games,ruffian-games,1207008000.0,29.0
+1658,124.0,Sauropod Studio,sauropod-studio,,
+1662,,Orteil,orteil,,
+2012,,Evolution Games,evolution-games,,
+3019,,Triangle Service,triangle-service,,
+3232,,NEURON AGE,neuron-age,,
+3501,,Paw Paw Productions,paw-paw-productions,,
+547,840.0,Accolade,accolade,469065600.0,
+625,,Microsoft Research,microsoft-research,,
+857,840.0,ThatGameCompany,thatgamecompany,1147651200.0,
+1245,392.0,Ambrella,ambrella,820454400.0,70.0
+1313,392.0,ART,art,801100800.0,
+1887,,Black Dragon Productions,black-dragon-productions,,
+2271,840.0,SpiderMonk Entertainment,spidermonk-entertainment,,
+3821,840.0,flippfly,flippfly,,
+4014,124.0,Vblank Entertainment,vblank-entertainment,,
+4175,,BeTomorrow,betomorrow,,
+282,840.0,Trilobyte,trilobyte,662601600.0,
+382,276.0,Silver Style Entertainment,silver-style-entertainment,,
+630,392.0,Koei,koei,270172800.0,
+804,36.0,Beam Software,beam-software,347068800.0,
+806,36.0,Tantalus Interactive,tantalus-interactive,788832000.0,
+859,840.0,Runic Games,runic-games,1218153600.0,917.0
+1167,,Super Fighter Team,super-fighter-team,,
+1311,,Cartoon Network Interactive,cartoon-network-interactive,,
+1541,276.0,Metricminds,metricminds,1009756800.0,10075.0
+1704,840.0,Cyberdreams,cyberdreams,662601600.0,
+533,840.0,Stardock,stardock,694137600.0,
+892,392.0,Capcom Production Studio 2,capcom-production-studio-2,,37.0
+1051,124.0,Hothead Games,hothead-games,,
+1087,,MECC,mecc,,
+1392,804.0,Vostok Games,vostok-games,,
+2758,,Tezuka Productions,tezuka-productions,,
+3025,392.0,"Creative Intelligence Arts, Inc.",creative-intelligence-arts-inc,1279670400.0,
+3029,840.0,BattleCry Studios,battlecry-studios,1356912000.0,
+3312,,Dark Horse,dark-horse,,
+4419,,Conifer Games,conifer-games,,
+13,840.0,Demiurge Studios,demiurge-studios,1041292800.0,42782.0
+119,,Mass Media Interactive Entertainment,mass-media-interactive-entertainment,,
+372,804.0,GSC World Publishing,gsc-world-publishing,1104451200.0,
+713,,Raylight Studios,raylight-studios,,
+863,392.0,Takara,takara,-441936000.0,
+1181,,Digital Pictures,digital-pictures,,
+1699,840.0,Reverb Publishing,reverb-publishing,,
+1760,392.0,AlphaDream,alphadream,947635200.0,
+2141,276.0,FAKT Software,fakt-software,946598400.0,
+2231,,Noise Factory,noise-factory,,
+505,840.0,Outrage Games,outrage-games,880934400.0,197.0
+564,840.0,Presto Studios,presto-studios,711590400.0,
+732,392.0,Project Soul,project-soul,,
+1251,840.0,Beyond Games,beyond-games,725760000.0,
+1454,,WarChest,warchest,,
+3643,,Steambot,steambot,,
+4255,,Magic House,magic-house,,
+4460,826.0,Twistplay,twistplay,1356912000.0,
+4461,,Chilled Mouse,chilled-mouse,,
+4517,,Hoplite Research,hoplite-research,1009756800.0,
+501,250.0,Delphine Software,delphine-software,599529600.0,
+1656,,Alcuria Games,alcuria-games,,
+2039,,Tommo Inc,tommo-inc,,
+2265,,EM Studios,em-studios,,
+2297,752.0,ColdWood Interactive,coldwood-interactive,,
+2890,392.0,Bimboosoft,bimboosoft,,
+3540,,SGS,sgs,,
+4320,,Adventure Productions,adventure-productions,,
+4323,,Mirage Interactive,mirage-interactive,,
+4483,380.0,MixedBag,mixedbag,1388448000.0,
+198,840.0,Iron Lore Entertainment,iron-lore-entertainment,970358400.0,
+205,840.0,GT Interactive Software,gt-interactive-software,728524800.0,213.0
+336,392.0,Square Enix Product Development Division 3,square-enix-product-development-division-3,851990400.0,26.0
+380,826.0,Adventure Soft,adventure-soft,707529600.0,
+675,528.0,Orange Games,orange-games,757296000.0,
+809,,South Park Digital Studios,south-park-digital-studios,,
+1402,840.0,BlueSky Software,bluesky-software,599529600.0,
+1564,,Portalarium,portalarium,,
+2876,124.0,Gogii Games,gogii-games,1167523200.0,
+2916,124.0,Breakfall,breakfall,,
+222,124.0,BioWare Edmonton,bioware-edmonton,791596800.0,2.0
+1016,,Twisted Tree,twisted-tree,,
+1312,840.0,Realtime Associates,realtime-associates,536371200.0,
+2115,392.0,Barnhouse Effect,barnhouse-effect,859766400.0,
+2360,392.0,Kaneko,kaneko,329616000.0,
+2414,840.0,Radiant Entertainment,radiant-entertainment,1388448000.0,
+2421,246.0,Nokia,nokia,-1767225600.0,
+2516,,SPS,sps,,
+2914,,Grip Games,grip-games,,
+3094,392.0,Leaf,leaf,915062400.0,3045.0
+206,,Epic MegaGames,epic-megagames,,
+425,826.0,Eurocom Entertainment Software,eurocom-entertainment-software,591667200.0,
+470,840.0,Turbine,turbine,1109289600.0,
+753,40.0,Nordic Games Publishing,nordic-games-publishing,1230681600.0,7416.0
+1003,752.0,Dennaton Games,dennaton-games,1356912000.0,
+1247,,Lego Group,lego-group,,
+1391,276.0,gamigo AG,gamigo-ag,,
+1401,752.0,Oxeye Game Studio,oxeye-game-studio,,
+1406,124.0,Going Load Studios,going-load-studios,,
+1505,,EA Maxis,ea-maxis,,
+1323,,Grigon Entertainment,grigon-entertainment,,
+1377,840.0,Uber Entertainment,uber-entertainment,1204329600.0,
+2036,,Sunrise Interactive,sunrise-interactive,,
+2099,392.0,Silicon Studio,silicon-studio,978220800.0,
+2440,840.0,2XL Games,2xl-games,,
+2549,276.0,Runesoft,runesoft,,
+2935,392.0,Nintendo SPD,nintendo-spd,1064880000.0,70.0
+2995,,Namco Bandai America,namco-bandai-america,,
+3072,,Grey Box,grey-box,,
+3757,,Elverils LLC,elverils-llc,,
+394,250.0,Nadeo,nadeo,978220800.0,104.0
+939,,Gazillion Entertainment,gazillion-entertainment,,
+1278,,Paradigm Entertainment,paradigm-entertainment,,
+2225,392.0,NanaOn-Sha,nanaon-sha,,
+2364,,Big Fun Games,big-fun-games,,
+2498,,Fusty Game,fusty-game,,
+2807,276.0,Shin'en,shin-en,946598400.0,
+2832,440.0,On5,on5,1262217600.0,
+2894,724.0,3D2 Entertainment,3d2-entertainment,1325289600.0,
+2973,616.0,Reality Pump,reality-pump,820368000.0,
+44,392.0,Team Ico,team-ico,883526400.0,400.0
+100,643.0,Nival Interactive,nival-interactive,851990400.0,
+203,203.0,Illusion Softworks,illusion-softworks,883526400.0,
+317,840.0,Dynamix,dynamix,473299200.0,
+575,826.0,Impressions Games,impressions-games,631065600.0,147.0
+854,208.0,Playdead,playdead,1149120000.0,
+1059,392.0,"YUKE'S Co., Ltd.",yukes-co-dot-ltd,730684800.0,
+1129,,Quixel,quixel,,
+1296,392.0,Raizing,raizing,732153600.0,
+1370,,Emily Short,emily-short,,
+15,840.0,2K Marin,2k-marin,1175299200.0,8.0
+18,156.0,2K China,2k-china,1147132800.0,8.0
+20,,Darkside Game Studios,darkside-game-studios,,
+24,840.0,Sierra Entertainment,sierra-entertainment,291686400.0,
+338,840.0,Encore,encore,,
+538,840.0,Viva Media,viva-media,946598400.0,
+649,840.0,2K Boston,2k-boston,1186704000.0,139.0
+823,124.0,United Front Games,united-front-games,1199059200.0,
+1013,124.0,Polytron Corporation,polytron-corporation,,
+1033,826.0,SCE London Studio,sce-london-studio,1041292800.0,13634.0
+450,,Aion Team Development Dept,aion-team-development-dept,,
+611,840.0,Celeris,celeris,567907200.0,
+661,,Image Space Incorporated,image-space-incorporated,,
+688,840.0,S2 Games,s2-games,,
+737,,Exosyphen Studios,exosyphen-studios,1072828800.0,
+1272,,Sega Sports R&D,sega-sports-r-d,,
+1277,840.0,Mattel Interactive,mattel-interactive,824083200.0,2889.0
+1425,840.0,Misfits Attic,misfits-attic,,
+1451,276.0,Black Pants Game Studio,black-pants-game-studio,,
+1622,392.0,Omiya Soft,omiya-soft,725846400.0,
+235,840.0,Heuristic Park,heuristic-park,820368000.0,
+269,826.0,Enlight Software Limited,enlight-software-limited,757296000.0,
+387,840.0,Sculptured Software,sculptured-software,489974400.0,287.0
+391,,Red Fly Studio,red-fly-studio,,
+448,,Vicious Cycle Software,vicious-cycle-software,,
+655,392.0,Capcom Production Studio 3,capcom-production-studio-3,946598400.0,37.0
+700,840.0,Majesco Entertainment,majesco-entertainment,536371200.0,
+907,840.0,Sony Computer Entertainment of America,sony-computer-entertainment-of-america,,
+1099,,Mercenary Technology,mercenary-technology,,
+1259,,FreeStyleGames,freestylegames,,
+45,392.0,"Sony Computer Entertainment, Inc. (SCEI)",sony-computer-entertainment-inc-scei,753408000.0,10282.0
+212,840.0,Sunstorm Interactive,sunstorm-interactive,820368000.0,
+214,,Sylum Entertainment,sylum-entertainment,,
+316,,Sierra,sierra,1419984000.0,66.0
+319,840.0,n-Space,n-space--1,788832000.0,
+444,124.0,Radical Entertainment,radical-entertainment,683683200.0,66.0
+465,,U.S. Army,u-s-army,,
+573,,Tri Synergy,tri-synergy,,
+814,,SuperVillain Studios,supervillain-studios,,
+825,840.0,Vigil Games,vigil-games,1135987200.0,197.0
+62,840.0,Griptonite Games,griptonite-games,760060800.0,216.0
+133,840.0,Rogue Entertainment,rogue-entertainment,788832000.0,
+243,840.0,Sony Online Entertainment,sony-online-entertainment,882316800.0,13634.0
+399,,Longtail Studios,longtail-studios,,104.0
+593,124.0,The Adventure Company,the-adventure-company,1041292800.0,753.0
+682,,Reactor Zero,reactor-zero,,
+706,826.0,HotGen,hotgen,,
+712,840.0,EA Mobile,ea-mobile,1104451200.0,1.0
+740,156.0,Spicy Horse Games,spicy-horse-games,1199059200.0,
+764,826.0,Psygnosis,psygnosis,473299200.0,13634.0
+6,826.0,Lionhead Studios,lionhead-studios,851990400.0,
+74,392.0,CyberFront,cyberfront,902793600.0,5191.0
+223,840.0,Edge of Reality,edge-of-reality,915062400.0,
+234,250.0,Cryo Interactive,cryo-interactive,725760000.0,
+647,276.0,Related Designs,related-designs,820368000.0,
+750,,Cinemaware,cinemaware,,
+798,36.0,Ubisoft Australia,ubisoft-australia,,104.0
+926,616.0,City Interactive,city-interactive,1041292800.0,
+1045,840.0,Viacom New Media,viacom-new-media,788832000.0,
+1143,,"Pangea Software, Inc.",pangea-software-inc,,
+87,840.0,Mythic Entertainment,mythic-entertainment,878342400.0,
+160,840.0,Double Helix Games,double-helix-games,1191888000.0,4358.0
+412,826.0,Codemasters Southam,codemasters-southam,536371200.0,115.0
+422,840.0,Carbine Studios,carbine-studios,1135987200.0,256.0
+543,826.0,Rage Software,rage-software,725760000.0,
+786,392.0,Q Entertainment,q-entertainment,1065744000.0,
+870,,SEGA Amusements Europe,sega-amusements-europe,,
+936,,Shining Rock Software,shining-rock-software,,
+948,840.0,Spark Unlimited,spark-unlimited,1014940800.0,
+964,,1C:Ino-Co Plus,1c-ino-co-plus,,
+42,156.0,Tencent Holdings,tencent-holdings,915062400.0,
+90,840.0,Neversoft Entertainment,neversoft-entertainment,773020800.0,66.0
+103,348.0,Black Hole Entertainment,black-hole-entertainment,1009756800.0,
+120,,MacPlay,macplay,,
+127,,Funcom Productions,funcom-productions,,
+165,,DC Entertainment,dc-entertainment,,
+200,392.0,Electronic Arts Victor,electronic-arts-victor,662601600.0,1.0
+232,,Triptych Games,triptych-games,,
+306,124.0,Rockstar Toronto,rockstar-toronto,1041292800.0,29.0
+351,124.0,EA Montreal,ea-montreal,1079481600.0,1.0
+158,826.0,Crytek UK,crytek-uk,946598400.0,249.0
+209,840.0,Wideload Games,wideload-games,1072828800.0,95.0
+301,203.0,2K Czech,2k-czech,1230681600.0,8.0
+402,,Day 1 Studios,day-1-studios,,
+408,840.0,TimeGate Studios,timegate-studios,915062400.0,
+416,,Syfy Games,syfy-games,,
+435,840.0,Danger Close,danger-close,1293753600.0,1.0
+787,392.0,Aspect,aspect,669859200.0,
+868,,Junction Point Studios,junction-point-studios,,
+872,,Altron,altron,,
+30,36.0,Team Bondi,team-bondi,1072828800.0,
+54,,TransGaming Technologies,transgaming-technologies,,
+60,,Climax Group,climax-group,,
+155,752.0,Easy Studios,easy-studios,1230681600.0,1.0
+162,203.0,Vatra Games,vatra-games,1262217600.0,1125.0
+182,840.0,Nihilistic Software,nihilistic-software,888710400.0,
+239,,Gas Powered Games,gas-powered-games,,
+308,826.0,Rockstar Leeds,rockstar-leeds,1104451200.0,29.0
+323,392.0,Nextech,nextech,762480000.0,112.0
+332,124.0,EA Black Box,ea-black-box,,1.0
+32,840.0,Sierra On-Line,sierra-on-line,283996800.0,147.0
+81,,Destination Software,destination-software,,
+132,840.0,Destineer,destineer,946684800.0,
+136,840.0,Planet Moon Studios,planet-moon-studios,883526400.0,
+159,392.0,Konami Computer Entertainment Tokyo,konami-computer-entertainment-tokyo,796867200.0,129.0
+204,840.0,Gathering of Developers,gathering-of-developers,884649600.0,139.0
+211,124.0,Blue Castle Games,blue-castle-games,1120435200.0,
+230,840.0,MachineWorks Northwest,machineworks-northwest,,
+236,124.0,DreamCatcher Interactive,dreamcatcher-interactive,851990400.0,469.0
+268,124.0,Global Star Software,global-star-software,725760000.0,139.0
+11,840.0,EA Redwood Shores,ea-redwood-shores,915062400.0,1.0
+92,840.0,NovaLogic,novalogic,492220800.0,
+140,840.0,EA Los Angeles,ea-los-angeles,978220800.0,1.0
+166,,Shadows in Darkness,shadows-in-darkness,,
+181,840.0,Blue Fang Games,blue-fang-games,,
+238,,Typhoon Games,typhoon-games,,
+267,840.0,TalonSoft,talonsoft,794016000.0,139.0
+328,,Mean Hamster Software,mean-hamster-software,,
+329,392.0,Cavia,cavia,951868800.0,
+333,702.0,EA Singapore,ea-singapore,,
+64,840.0,Savage Entertainment,savage-entertainment,883526400.0,
+65,840.0,Luxoflux,luxoflux,,
+77,840.0,Totally Games,totally-games,757296000.0,
+80,840.0,Vivendi Games,vivendi-games,1167523200.0,
+141,826.0,Virgin Interactive Entertainment (Europe) Ltd.,virgin-interactive-entertainment-europe-ltd,441676800.0,
+145,276.0,cdv Software Entertainment,cdv-software-entertainment,978220800.0,
+190,840.0,Atari Corporation,atari-corporation,453600000.0,183.0
+192,,Zodttd,zodttd,,
+210,,Southlogic Studios,southlogic-studios,,
+237,276.0,Crimson Cow,crimson-cow,,
+118,840.0,Midway Studios Los Angeles,midway-studios-los-angeles,788832000.0,327.0
+125,,Crytek Budapest,crytek-budapest,,249.0
+130,840.0,MacSoft Games,macsoft-games,757296000.0,132.0
+262,,Flagship Studios,flagship-studios,,
+276,,EA UK,ea-uk,,
+312,392.0,Konami Computer Entertainment Japan,konami-computer-entertainment-japan,851990400.0,129.0
+367,840.0,Gray Matter Interactive,gray-matter-interactive,757382400.0,66.0
+375,,Red Ant Enterprises,red-ant-enterprises,,
+376,,Linux Game Publishing,linux-game-publishing,,
+429,826.0,Venom Games,venom-games,1072828800.0,8.0
+52,,LTI Gray Matter,lti-gray-matter,,
+101,,Freeverse Software,freeverse-software,,
+135,276.0,Sunflowers,sunflowers,725846400.0,
+147,250.0,Vivendi Universal,vivendi-universal,1009756800.0,
+149,840.0,Ritual Entertainment,ritual-entertainment,839808000.0,
+199,,Sonokong,sonokong,,
+240,840.0,Stainless Steel Studios,stainless-steel-studios,883612800.0,
+254,,Widescreen Games,widescreen-games,,
+271,840.0,The Collective,the-collective,883526400.0,4358.0
+295,840.0,Origin Systems,origin-systems,410227200.0,1.0
+117,840.0,Troika Games,troika-games,891388800.0,
+134,40.0,Max Design,max-design,694137600.0,
+153,124.0,Digital Illusions CE: Canada,digital-illusions-ce-canada,,
+189,840.0,BAM! Entertainment,bam-entertainment,939254400.0,
+194,,Hothouse Creations,hothouse-creations,,
+201,840.0,Cyberlore Studios,cyberlore-studios,725760000.0,
+202,,Pterodon,pterodon,,
+207,840.0,PopTop Software,poptop-software,757296000.0,139.0
+258,,KnowWonder,knowwonder,,
+259,826.0,Warthog Games,warthog-games,859852800.0,
+97,840.0,New World Computing,new-world-computing,473299200.0,99.0
+99,840.0,The 3DO Company,the-3do-company,694137600.0,
+121,,Blizzard Classic Arcade,blizzard-classic-arcade,,
+195,840.0,Brøderbund Software,broderbund-software,347068800.0,1524.0
+304,840.0,Quicksilver Software,quicksilver-software,,
+325,840.0,Saffire,saffire,788832000.0,
+346,392.0,The Game Designers Studio,the-game-designers-studio,930009600.0,10938.0
+352,,Eden Studios,eden-studios,915062400.0,
+359,,Hammerhead,hammerhead,,
+369,,Chris Sawyer,chris-sawyer,,
+59,840.0,Blizzard North,blizzard-north,851990400.0,
+76,,Ronin Entertainment,ronin-entertainment,,
+107,,Lego Media,lego-media,,
+173,,The Omni Group,the-omni-group,,
+174,,Digital Mayhem,digital-mayhem,,
+178,,Intelligent Games,intelligent-games,,
+215,840.0,WizardWorks Software,wizardworks-software,662601600.0,82.0
+218,,Vatical Entertainment,vatical-entertainment,,
+246,36.0,Micro Forté,micro-forte,504835200.0,
+252,840.0,Square Electronic Arts,square-electronic-arts,893980800.0,
+14,826.0,Bullfrog Productions,bullfrog-productions,544147200.0,
+106,840.0,Loki Software,loki-software,910569600.0,
+142,840.0,Westwood Pacific,westwood-pacific,820368000.0,
+193,840.0,Jellyvision,jellyvision,631065600.0,
+217,,Morning Star Multimedia,morning-star-multimedia,,
+226,,Aardvark Software,aardvark-software,,
+242,,Verant Interactive,verant-interactive,,
+247,840.0,14 Degrees East,14-degrees-east,946598400.0,
+266,,Tarantula Studios,tarantula-studios,,
+320,392.0,Kan Navi,kan-navi,,
+91,,Playmates Interactive Entertainment,playmates-interactive-entertainment,,
+114,276.0,reLINE Software,reline-software,,
+138,,Refraction Games,refraction-games,,
+180,826.0,Mythos Games,mythos-games,599529600.0,
+275,,Titan Computer,titan-computer,,
+341,392.0,Bullet-Proof Software,bullet-proof-software,429321600.0,
+342,840.0,Yosemite Entertainment,yosemite-entertainment,915062400.0,4090.0
+344,840.0,Macmillan Digital Publishing,macmillan-digital-publishing,851990400.0,
+360,840.0,Logicware,logicware,820368000.0,
+388,392.0,JVC,jvc,-1334966400.0,54407.0
+84,,CTO SpA,cto-spa,,
+89,,Shokwave,shokwave,,
+227,826.0,U.S. Gold,u-s-gold,473299200.0,
+244,,Edusoft,edusoft,,
+368,,Infocom,infocom,,
+472,,Infinite Monkey,infinite-monkey,,
+506,,Parallax Software,parallax-software,740016000.0,
+550,,Gamestorm,gamestorm,,
+569,,Rocket Science Games,rocket-science-games,725846400.0,
+602,,Burst Studios,burst-studios,,
+151,840.0,Simtex,simtex,599529600.0,
+228,,FormGen,formgen,,
+231,,Tec Toy Indústria de Brinquedos,tec-toy-industria-de-brinquedos,,
+456,,Crack dot Com,crack-dot-com,,
+643,,Rainmaker Software,rainmaker-software,,
+644,,Merit Software,merit-software,,
+692,,High Score Productions,high-score-productions,,
+715,,Hitmen Productions,hitmen-productions,,
+718,,EA Manchester,ea-manchester,,
+880,826.0,Domark Software,domark-software,453081600.0,
+185,,Ninjaforce,ninjaforce,,
+278,840.0,Silicon & Synapse,silicon-synapse,,
+535,,Papyrus,papyrus,,
+879,826.0,The Kremlin,the-kremlin,662601600.0,880.0
+1039,,Entertainment Software Partners,entertainment-software-partners,,
+1090,,Grandslam Video Ltd.,grandslam-video-ltd,,
+1091,,Real World Software,real-world-software,,
+1130,380.0,Simulmondo,simulmondo,599529600.0,
+1132,,Ninano Software,ninano-software,,
+1152,,International Computer Entertainment,international-computer-entertainment,,
+9,840.0,Lucasfilm Games,lucasfilm-games,389059200.0,7424.0
+186,,Stalker Entertainment,stalker-entertainment,,
+310,,Ultra Games,ultra-games,,
+324,392.0,Square Soft,square-soft,,
+339,,The Assembly Line,the-assembly-line,,
+772,,Palcom,palcom,,
+829,,Wolfteam,wolfteam,,
+838,,Romstar,romstar,,
+881,,Walking Circles,walking-circles,,
+1067,826.0,Magnetic Scrolls,magnetic-scrolls,473299200.0,
+927,,Gottlieb,gottlieb,,
+1027,826.0,"Distinctive Software, Inc.",distinctive-software-inc,,
+1066,,Pandora,pandora,,
+1076,840.0,"Datasoft, Inc.",datasoft-inc,347068800.0,
+1080,,Castle Technologies,castle-technologies,,
+1085,826.0,Microdeal,microdeal--1,,
+1142,,"Micro Revelations, Inc.",micro-revelations-inc,,
+1174,,Kyodai Software Marketing,kyodai-software-marketing,,
+1282,,Kemco-Seika,kemco-seika,,
+1340,,Gargoyle Games,gargoyle-games,,
+708,840.0,On-Line Systems,on-line-systems,315446400.0,
+1077,,"IntelliCreations, Inc",intellicreations-inc,,
+1081,,Adventure International,adventure-international,,
+1086,,Telarium,telarium,,
+1123,,Personal Software,personal-software,,
+1139,,Cinematronics,cinematronics,,
+1141,,Mosaic Publishing,mosaic-publishing,,
+1158,,Jagware,jagware,,
+1351,,Lightwave Consultants,lightwave-consultants,,
+1353,,Binary Systems,binary-systems,,
+1034,,Home Vision,home-vision,,
+1035,,Gem International Corp.,gem-international-corp,,
+1036,,VDI Video Direct International,vdi-video-direct-international,,
+1105,,Artic,artic,,
+1107,,Stern,stern,,
+1121,,Atarisoft,atarisoft,,
+1138,,General Consumer Electric,general-consumer-electric,,
+1155,,California Pacific Computer,california-pacific-computer,,
+1275,,Dempa Shunbunsha,dempa-shunbunsha,,
+1297,840.0,Gremlin Industries,gremlin-industries,126144000.0,50699.0
+1345,840.0,Richard Garriott,richard-garriott,,
+1350,,The Software Factory,the-software-factory,,
+2906,,William Higinbotham,william-higinbotham,,
+4138,,Main Street Publishing,main-street-publishing,,
+5955,,Nutting Associates,nutting-associates,,
+6069,,Kee Games,kee-games,,
+8441,,Vectorbeam,vectorbeam,,
+8749,,Nakamura Production,nakamura-production,,
+9288,,"Computer Recreations, Inc.",computer-recreations-inc,,
+9289,,Allied Leisure Industries,allied-leisure-industries,,
+41650,,RetroNinja,retroninja,,
+46298,,Space Rock Games,space-rock-games,,
+46830,156.0,Senca,senca,,
+49459,,Miles' Games,miles-games,,
+49480,,J Lawal,j-lawal,,
+49519,,philRaco,philraco,,
+49526,,Bluu,bluu,,
+49631,,SlyBalto,slybalto,,
+53189,36.0,Covyne Entertainment,covyne-entertainment,1325376000.0,
+53742,616.0,Rabid Rat,rabid-rat,1546214400.0,
+4451,250.0,Wild Sheep Studio,wild-sheep-studio,,
+5624,,Forge Studios,forge-studios,,
+10387,,Locomotive,locomotive,,
+10408,,Frederiksberg Svømmehal,frederiksberg-svommehal,,
+23908,,Iris,iris,,
+25681,,Boll Team,boll-team,,
+32114,,TheHauntedPS1,thehauntedps1,,
+38956,,TryFirst,tryfirst,,
+41765,276.0,Beardshaker Games,beardshaker-games,,
+42865,,Orsonik's Studio,orsoniks-studio,,
+3178,,Intel,intel,,
+19976,,ME,me,,
+28780,,Vilein,vilein,,
+29362,,Nikodem Grzonkowski,nikodem-grzonkowski,,
+31115,,Loreweaver Creativeworks,loreweaver-creativeworks,,
+31181,,Silver Studio games,silver-studio-games,,
+33440,,Mongoose Rodeo,mongoose-rodeo,,
+37669,,Beartwigs,beartwigs,,
+49151,392.0,brutal_vap,brutal-vap,,
+49548,112.0,mechakotik,mechakotik,,
+12287,,Improbable,improbable,,
+16047,,Hartung,hartung,,
+16976,,Ape Inc,ape-inc,,
+17846,246.0,Psyon Games,psyon-games,,
+26620,,ZnelArts,znelarts,,
+27291,,Sunsoft America,sunsoft-america,,
+36275,,CBC Kids,cbc-kids,,
+39062,,Flannel Bear Games,flannel-bear-games,,
+45811,752.0,Synergenix Interactive,synergenix-interactive,946598400.0,
+47074,,Miniso,miniso,,
+5379,,Speed,speed,,
+5444,,Airborn Studios,airborn-studios,,
+10049,,Entropy Studio,entropy-studio,,
+13220,,Pandoneum Studio,pandoneum-studio,,
+13232,,Stargate Network Association,stargate-network-association,,
+13329,702.0,Proxima Beta,proxima-beta,1480636800.0,3595.0
+27382,300.0,Happyland Games,happyland-games,,
+29287,,SciPlay,sciplay,,
+32973,,CesarZ,cesarz,,
+44439,840.0,Possqueen,possqueen,,
+3290,,HEALTH,health,,
+10936,,Probe 2000,probe-2000,,
+11191,,QUARTOMUNDO,quartomundo,,
+12037,,Skylight Studios,skylight-studios,,
+12546,840.0,Starfall Studios,starfall-studios,,
+17814,246.0,Empires Not Vampires Entertainment,empires-not-vampires-entertainment,,
+20693,376.0,Jelly Button,jelly-button,1325289600.0,
+34648,,Retro Ninja,retro-ninja,,
+35555,826.0,Square Enix Limited,square-enix-limited,1257724800.0,14692.0
+37797,,Giygas&Beatz,giygas-and-beatz,,
+17621,,plarium,plarium,,
+26047,,Black Beard Design Studio Inc.,black-beard-design-studio-inc,,
+26995,,Naturally Intelligent,naturally-intelligent,,
+34343,,Mistflux Games,mistflux-games,,
+37150,,Artnroll Games,artnroll-games,,
+42281,276.0,Teamdrew Interactive,teamdrew-interactive,,
+42782,752.0,Embracer Group,embracer-group,946598400.0,
+42836,124.0,Goose Byte,goose-byte,1630454400.0,36725.0
+42957,246.0,Void Chamber,void-chamber,1659916800.0,
+42977,,Laser Beam,laser-beam,,
+8273,,Black Point,black-point,,
+16868,276.0,Jonas Manke,jonas-manke,,
+20949,840.0,Ghost Story Games,ghost-story-games,,33682.0
+21999,,Hasegawa Corporation,hasegawa-corporation,,
+28380,,Li Yang,li-yang,,
+34130,,Tonic Innovations,tonic-innovations,,
+38510,,Elysium Game Studio,elysium-game-studio,,
+38615,,TBD,tbd,,
+38702,,amnedge,amnedge,,
+38910,,Enhearten Media,enhearten-media,,
+19577,76.0,Manifesto Games,manifesto-games,1135987200.0,
+19901,,Ernest Placido,ernest-placido,,
+31656,,Ongame,ongame,,
+32882,,Wreckit Games,wreckit-games,,
+33395,,Glivi Games,glivi-games,,
+33854,,Onessus,onessus,,
+34977,,Soramame Games,soramame-games,,
+36561,,TinyPlay,tinyplay,,
+36575,,WindraX,windrax,,
+36597,,GREAT FISH INTERACTIVE,great-fish-interactive,,
+17857,246.0,Superplus Games,superplus-games,,
+27998,,INGLOOM,ingloom,,
+28037,,Brandon Macleod,brandon-macleod,,
+28055,,HES games,hes-games,,
+28056,,Typer Games,typer-games,,
+28084,,Hazy Paw Games Inc.,hazy-paw-games-inc,,
+28098,276.0,Bootcamp Bros.,bootcamp-bros,,
+28247,,loubro studio,loubro-studio,,
+28253,,Bug Mane LLC,bug-mane-llc,,
+28262,,Sinking Ship Studios,sinking-ship-studios,,
+4306,,JSC Games,jsc-games,,
+13516,380.0,CoseBelle,cosebelle,1483142400.0,8623.0
+14369,,EA Originals,ea-originals,,
+14790,,Aloft Studio,aloft-studio,,
+15333,826.0,Quarter Circle Games,quarter-circle-games,1434326400.0,
+17743,752.0,Kaludoscope,kaludoscope,,
+18028,,Lawl Games,lawl-games,,
+18533,,TwoBros,twobros,,
+18737,826.0,Octet Storm,octet-storm,,
+18948,,Prime Chaos,prime-chaos,,
+154,,Neowiz Games,neowiz-games,,
+1835,826.0,Big Bit Ltd,big-bit-ltd,1325289600.0,
+3442,,Asia Soft Inc.,asia-soft-inc,,
+4663,,Jinnan Studio,jinnan-studio,,
+4756,,Area 52 Games,area-52-games,,
+5001,,Prismatic Games,prismatic-games,,
+5304,840.0,Moonshot Games,moonshot-games,1254873600.0,
+7527,840.0,Hitbox Team,hitbox-team,,
+9933,578.0,Kreative Spill,kreative-spill,,
+12146,756.0,Sycoforge,sycoforge,1293753600.0,
+1049,,ITT Family Games,itt-family-games,,
+1101,,Meadowhill Interactive,meadowhill-interactive,,
+1211,,Robotoki,robotoki,,
+1369,,Project Reality Team,project-reality-team,,
+1504,,Victory Games,victory-games,1293753600.0,1.0
+1654,,Scary Pixel,scary-pixel,,
+2279,,Taitale Studios,taitale-studios,,
+2621,840.0,Intermetrics Entertainment Software,intermetrics-entertainment-software,,
+2899,,Tripmine Studios,tripmine-studios,,
+3088,,Blue Machine Interactive,blue-machine-interactive,,
