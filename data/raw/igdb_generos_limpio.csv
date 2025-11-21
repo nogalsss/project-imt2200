@@ -1,0 +1,24 @@
+id,name,slug
+2,Point-and-click,point-and-click
+4,Fighting,fighting
+5,Shooter,shooter
+7,Music,music
+8,Platform,platform
+9,Puzzle,puzzle
+10,Racing,racing
+11,Real Time Strategy (RTS),real-time-strategy-rts
+12,Role-playing (RPG),role-playing-rpg
+13,Simulator,simulator
+14,Sport,sport
+15,Strategy,strategy
+16,Turn-based strategy (TBS),turn-based-strategy-tbs
+24,Tactical,tactical
+25,Hack and slash/Beat 'em up,hack-and-slash-beat-em-up
+26,Quiz/Trivia,quiz-trivia
+30,Pinball,pinball
+31,Adventure,adventure
+32,Indie,indie
+33,Arcade,arcade
+34,Visual Novel,visual-novel
+35,Card & Board Game,card-and-board-game
+36,MOBA,moba
