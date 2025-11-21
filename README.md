@@ -104,6 +104,10 @@ Descripción del proyecto, flujo de trabajo y estructura del repositorio.
 - Entrenamiento de modelos de clasificación.
 - Evaluación e interpretación de resultados.
 
+### **5. Resumen final**
+- El análisis integrado del proyecto (EDA + modelado + conclusiones estratégicas) se encuentra en  
+  **`Conclusiones.ipynb`** ubicado en la carpeta **raíz del repositorio**.
+
 ---
 
 ## 🧠 Principales hallazgos
@@ -122,4 +126,3 @@ Descripción del proyecto, flujo de trabajo y estructura del repositorio.
 ---
 
 Pontificia Universidad Católica de Chile — IMT2200 (2025-2)
-
