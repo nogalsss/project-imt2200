@@ -1,1 +1,325 @@
-<p> hola </p>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Claves del éxito en videojuegos - IMT2200</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="java.js"></script>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <header class="navbar">
+    <div class="navbar__brand">
+      <span class="navbar__logo">🎮</span>
+      <div class="navbar__text">
+        <span class="navbar__title">Claves del éxito en videojuegos</span>
+        <span class="navbar__subtitle">IMT2200 · Proyecto IGDB</span>
+      </div>
+    </div>
+
+    <button class="navbar__toggle" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="navbar__links">
+      <a href="#inicio">Inicio</a>
+      <a href="#objetivos">Objetivos</a>
+      <a href="#datos">Datos & Metodología</a>
+      <a href="#analisis">Análisis</a>
+      <a href="#modelo">Modelo predictivo</a>
+      <a href="#conclusiones">Conclusiones</a>
+      <a href="#riesgos">¿Qué podría salir mal?</a>
+      <a href="#equipo">Equipo & Repositorio</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Inicio -->
+  <section id="inicio" class="section hero">
+    <div class="hero__content">
+      <h1>Claves del éxito en videojuegos con datos de IGDB</h1>
+      <p>
+        Este proyecto recorre todo el ciclo de ciencia de datos para entender 
+        qué factores se asocian al éxito de un videojuego, con foco en apoyar a 
+        estudios independientes (<em>indies</em>) en la toma de decisiones.
+      </p>
+      <div class="hero__buttons">
+        <a href="#objetivos" class="btn btn--primary">Ver objetivos</a>
+        <a href="#conclusiones" class="btn btn--secondary">Ir a conclusiones</a>
+      </div>
+    </div>
+
+    <div class="hero__cards">
+      <article class="card">
+        <h3>Datos</h3>
+        <p>
+          Videojuegos, géneros, plataformas, empresas y métricas de éxito 
+          extraídas desde la API de IGDB.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Análisis</h3>
+        <p>
+          Limpieza, EDA, visualizaciones y modelos para entender qué separa 
+          a un juego exitoso del resto.
+        </p>
+      </article>
+      <article class="card">
+        <h3>Acción</h3>
+        <p>
+          Recomendaciones aterrizadas para estudios indies: qué priorizar al 
+          lanzar un nuevo juego.
+        </p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Objetivos -->
+  <section id="objetivos" class="section section--light">
+    <div class="section__inner">
+      <h2>Objetivos del proyecto</h2>
+      <p class="section__intro">
+        Aquí pega tu texto de objetivos (general y específicos). 
+        Deja claro qué pregunta de negocio quieren responder y para quién
+        están pensando las recomendaciones.
+      </p>
+
+      <div class="grid grid--2">
+        <div>
+          <h3>Objetivo general</h3>
+          <p>
+            <!-- Reemplaza este párrafo por tu objetivo general -->
+            Identificar qué características (plataforma, género, fecha de lanzamiento,
+            etc.) se asocian al éxito de un videojuego y cómo esto puede guiar a
+            estudios independientes en sus decisiones.
+          </p>
+        </div>
+        <div>
+          <h3>Objetivos específicos</h3>
+          <ul class="list">
+            <!-- Reemplaza / ajusta estos bullets con tus propios objetivos -->
+            <li>Caracterizar el ecosistema reciente de videojuegos usando datos de IGDB.</li>
+            <li>Evaluar qué variables se relacionan con mejores métricas de éxito.</li>
+            <li>Construir un modelo que estime la probabilidad de éxito de un juego.</li>
+            <li>Traducir los resultados en recomendaciones prácticas para estudios indies.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Datos & Metodología -->
+  <section id="datos" class="section">
+    <div class="section__inner">
+      <h2>Datos & Metodología</h2>
+      <p class="section__intro">
+        Resume aquí de forma simple cómo obtuvieron los datos, qué tablas usaron,
+        y el flujo general (ETL, limpieza, EDA, modelado). No es necesario entrar
+        en todo el detalle técnico del notebook.
+      </p>
+
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>1. Extracción de datos (ETL)</h3>
+            <p>
+              <!-- Pega aquí un resumen corto de tu sección de extracción -->
+              Uso de la API de IGDB para descargar información de juegos, géneros, 
+              plataformas y compañías, guardando los datos en formato reproducible.
+            </p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>2. Limpieza & transformación</h3>
+            <p>
+              <!-- Resumen de las decisiones clave de limpieza -->
+              Normalización de columnas, manejo de listas incrustadas (géneros, 
+              plataformas), filtrado por ventana temporal y eliminación de registros 
+              con información insuficiente.
+            </p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <h3>3. EDA y selección de variables</h3>
+            <p>
+              Exploración de distribuciones, correlaciones y definición de las 
+              variables más informativas para el modelo de éxito.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Análisis -->
+  <section id="analisis" class="section section--light">
+    <div class="section__inner">
+      <h2>Resultados del análisis exploratorio</h2>
+      <p class="section__intro">
+        Muestra aquí los hallazgos más importantes del EDA: patrones por género, 
+        plataformas, ventanas de lanzamiento, etc. Idealmente acompañados por 
+        algunas imágenes exportadas de tus gráficas.
+      </p>
+
+      <div class="grid grid--3">
+        <article class="card card--soft">
+          <h3>Patrones por género</h3>
+          <p>
+            <!-- Pega 2–3 frases clave de tu notebook -->
+            Por ejemplo: géneros con mayor presencia en juegos exitosos, diferencias
+            entre indies y AAA, etc.
+          </p>
+        </article>
+        <article class="card card--soft">
+          <h3>Ventanas de lanzamiento</h3>
+          <p>
+            Explica si hay periodos del año o tendencias temporales donde se 
+            concentran más lanzamientos exitosos.
+          </p>
+        </article>
+        <article class="card card--soft">
+          <h3>Plataformas & ecosistema</h3>
+          <p>
+            Comenta cómo se distribuye el éxito según plataforma (PC, consolas, 
+            móviles) y qué implica para un estudio indie.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modelo -->
+  <section id="modelo" class="section">
+    <div class="section__inner">
+      <h2>Modelo predictivo de éxito</h2>
+      <p class="section__intro">
+        Resume el modelo que usaron (clasificación / regresión), las variables 
+        más importantes y cómo interpretan sus métricas. No hace falta mostrar 
+        todas las tablas técnicas, solo lo esencial para entender el mensaje.
+      </p>
+
+      <div class="grid grid--2">
+        <div>
+          <h3>Enfoque de modelamiento</h3>
+          <ul class="list">
+            <!-- Ajusta según tu proyecto real -->
+            <li>Tipo de modelo utilizado (ej. regresión logística, árbol, etc.).</li>
+            <li>Definición de la variable objetivo (éxito / no éxito, score, etc.).</li>
+            <li>Estrategia de entrenamiento y validación.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Métricas & variables clave</h3>
+          <p>
+            Destaca las métricas principales (accuracy, recall, F1, etc.) y 
+            menciona qué variables tuvieron más peso en el modelo (por ejemplo, 
+            rating promedio, número de plataformas, presencia en cierto género).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Conclusiones -->
+  <section id="conclusiones" class="section section--highlight">
+    <div class="section__inner">
+      <h2>Conclusiones principales</h2>
+      <p class="section__intro">
+        Aquí va tu <strong>resumen de conclusiones</strong>: qué aprendieron, qué 
+        patrones son más importantes y qué decisiones puede tomar alguien con esta 
+        información. Es el corazón de la página.
+      </p>
+
+      <div class="grid grid--2">
+        <div>
+          <h3>Hallazgos sobre la industria</h3>
+          <ul class="list">
+            <!-- Reemplaza estos bullets por tus conclusiones reales -->
+            <li>Qué factores se repiten en los juegos más exitosos.</li>
+            <li>Diferencias claras entre juegos indies y grandes estudios.</li>
+            <li>Rol de la plataforma, género y momento de lanzamiento.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Recomendaciones para estudios indies</h3>
+          <ul class="list">
+            <!-- Recomendaciones accionables para tu audiencia -->
+            <li>En qué plataformas tiene más sentido enfocarse al inicio.</li>
+            <li>Qué tipo de géneros parecen ofrecer mejores oportunidades.</li>
+            <li>Buenas prácticas sugeridas según sus resultados.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ¿Qué podría salir mal? -->
+  <section id="riesgos" class="section section--light">
+    <div class="section__inner">
+      <h2>¿Qué podría salir mal?</h2>
+      <p class="section__intro">
+        Sección para cuestionar los resultados: sesgos de los datos, limitaciones
+        del modelo y riesgos de usar estas conclusiones de forma acrítica.
+      </p>
+
+      <div class="grid grid--2">
+        <div>
+          <h3>Limitaciones de los datos</h3>
+          <p>
+            Comenta posibles sesgos de cobertura, calidad de ratings, selección 
+            de juegos, etc.
+          </p>
+        </div>
+        <div>
+          <h3>Riesgos éticos y de interpretación</h3>
+          <p>
+            Explica qué decisiones equivocadas podrían tomarse si se ignoran las 
+            limitaciones, conectando con la parte de integridad y “Weapons of 
+            Math Destruction” si corresponde.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo & Repositorio -->
+  <section id="equipo" class="section">
+    <div class="section__inner">
+      <h2>Equipo & recursos</h2>
+      <div class="grid grid--2">
+        <div>
+          <h3>Integrantes</h3>
+          <ul class="list">
+            <!-- Escribe aquí los nombres de tu grupo -->
+            <li>Nombre 1</li>
+            <li>Nombre 2</li>
+            <li>Nombre 3</li>
+            <li>Nombre 4</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Repositorio & notebook</h3>
+          <p>
+            Puedes revisar todo el código y el análisis detallado en los siguientes enlaces:
+          </p>
+          <ul class="list">
+            <li><a href="TU_LINK_REPO" target="_blank">Repositorio en GitHub</a></li>
+            <li><a href="LINK_NOTEBOOK_CONCLUSIONES" target="_blank">Notebook de conclusiones</a></li>
+            <!-- Agrega el link del video cuando lo tengas -->
+            <li><a href="LINK_VIDEO" target="_blank">Video de presentación</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>IMT2200 · Introducción a Ciencia de Datos · 2025-2</p>
+  </footer>
+</body>
+</html>
