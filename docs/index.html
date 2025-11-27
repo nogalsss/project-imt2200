@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Claves del éxito en videojuegos - IMT2200</title>
+  <link rel="icon" type="image/x-icon" href="/project-imt2200/img/iconopagina.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="styles.css" />
   <script defer src="java.js"></script>
@@ -24,11 +25,11 @@
 
     <nav class="navbar__links">
       <a href="#inicio">Inicio</a>
-      <a href="#motivacion">Motivación & objetivos</a>
-      <a href="#datos">Datos & proceso</a>
-      <a href="#analisis">Análisis de la industria</a>
-      <a href="#conclusiones">Conclusiones & problemas</a>
-      <a href="#equipo">Equipo & repositorio</a>
+      <a href="#motivacion">Motivación & Objetivos</a>
+      <a href="#datos">Procesamiento</a>
+      <a href="#analisis">Análisis</a>
+      <a href="#conclusiones">Conclusiones & Problemas</a>
+      <a href="#equipo">Equipo & Repositorio</a>
     </nav>
   </header>
 
@@ -37,19 +38,20 @@
     <div class="hero__content">
       <h1>Claves del éxito en videojuegos con datos de IGDB</h1>
       <p>
-        En este proyecto usamos datos reales de videojuegos para responder una
-        pregunta simple pero difícil: ¿qué hace que algunos juegos despeguen y
-        la mayoría pase completamente desapercibida?
+        En este proyecto quisimos usar datos reales de videojuegos para
+        responder una pregunta simple pero difícil: como grupo, ¿qué creemos
+        que hace que algunos juegos despeguen y la mayoría pase completamente
+        desapercibida?
       </p>
       <p>
-        Trabajamos con la API oficial de IGDB, armamos un set de datos limpio,
-        analizamos patrones de la industria y construimos un modelo que ayuda a
-        estimar la probabilidad de éxito de un juego según la información que se
-        conoce al momento del lanzamiento.
+        Para eso decidimos trabajar con la API oficial de IGDB, armar un set de
+        datos limpio, estudiar los patrones de la industria y construir un
+        modelo que nos ayude a estimar la probabilidad de éxito de un juego a
+        partir de la información que se conoce al momento del lanzamiento.
       </p>
       <div class="hero__buttons">
-        <a href="#motivacion" class="btn btn--primary">Ver motivación & objetivos</a>
-        <a href="#conclusiones" class="btn btn--secondary">Ir directo a conclusiones</a>
+        <a href="#motivacion" class="btn btn--primary">Motivación & objetivos</a>
+        <a href="#conclusiones" class="btn btn--secondary">Conclusiones</a>
       </div>
     </div>
 
@@ -57,24 +59,29 @@
       <article class="card">
         <h3>Fuente de datos</h3>
         <p>
-          Toda la información viene de la
+          Toda la información que analizamos viene de la
           <a href="https://api-docs.igdb.com">API de IGDB</a>:
           juegos, compañías, plataformas, géneros y más, en formato JSON.
+          Desde el principio acordamos trabajar con una sola fuente bien
+          documentada para poder enfocarnos en el análisis.
         </p>
       </article>
       <article class="card">
         <h3>Flujo completo</h3>
         <p>
-          Extracción, limpieza, análisis exploratorio y modelos de clasificación,
-          todo documentado en notebooks y pensado para ser reproducible.
+          Diseñamos un flujo que recorre todo el ciclo de ciencia de datos:
+          extracción, limpieza, análisis exploratorio y modelos de
+          clasificación, todo documentado en notebooks para que cualquiera
+          pueda seguir los pasos que dimos.
         </p>
       </article>
       <article class="card">
-        <h3>Para quién sirve</h3>
+        <h3>Para quién lo pensamos</h3>
         <p>
-          El objetivo final es entregar ideas y recomendaciones que le sirvan a
-          estudios independientes que quieren lanzar un juego con más información
-          y menos apuesta a ciegas.
+          Desde el inicio tuvimos en mente a estudios independientes. Nuestra
+          idea fue terminar con recomendaciones que le sirvan a equipos chicos
+          que quieren lanzar un juego con más información y menos apuesta a
+          ciegas.
         </p>
       </article>
     </div>
@@ -85,33 +92,37 @@
     <div class="section__inner">
       <h2>Motivación & objetivos del proyecto</h2>
       <p class="section__intro">
-        Publicar un juego hoy es relativamente fácil. Lo difícil es que alguien
-        lo vea. La mayoría de los títulos se pierden en catálogos gigantes, y
-        muchas decisiones (género, plataforma, fecha) se toman por intuición.
-        Aquí quisimos preguntarnos: ¿qué dicen los datos sobre todo esto?
+        Publicar un juego hoy es relativamente fácil; lograr que alguien lo vea
+        es otra historia. Como grupo nos dimos cuenta de que muchos títulos se
+        pierden en catálogos gigantes, y que varias decisiones (género,
+        plataforma, fecha) se toman solo por intuición. Nosotros quisimos
+        preguntarnos: ¿qué dicen los datos sobre todo esto?
       </p>
 
       <div class="grid grid--2">
         <div>
           <h3>Por qué hicimos esto</h3>
           <p>
-            Como jugadores es fácil reconocer nombres de grandes estudios y
-            franquicias, pero mucho más difícil recordar indies que nunca
-            alcanzaron a “hacer ruido”. El proyecto nace de esa sensación:
-            hay talento, pero no siempre hay visibilidad. Si podemos leer la
-            historia reciente de la industria con datos, tal vez podamos
-            darle una pequeña ventaja a los equipos chicos.
+            Como jugadores, todos reconocemos nombres de grandes estudios y
+            franquicias, pero nos cuesta mucho más recordar indies que nunca
+            alcanzaron a “hacer ruido”. Desde esa sensación nació el proyecto:
+            creemos que hay mucho talento, pero no siempre hay visibilidad.
+          </p>
+          <p>
+            Nuestra apuesta fue que, si leemos la historia reciente de la
+            industria con datos, podemos encontrar patrones que ayuden a
+            estudios pequeños a tomar mejores decisiones sin perder su estilo.
           </p>
         </div>
         <div>
           <h3>Lo que queríamos lograr</h3>
           <ul class="list">
-            <li>Entender qué factores se repiten en los juegos exitosos.</li>
-            <li>Definir una forma concreta de medir “éxito” usando ratings y reseñas.</li>
+            <li>Entender qué factores se repiten en los juegos que consideramos exitosos.</li>
+            <li>Definir entre todos una forma concreta de medir “éxito” usando ratings y reseñas.</li>
             <li>Comparar el panorama para juegos AAA, No AAA y sin publisher.</li>
             <li>Ver cómo influyen el género, la plataforma y el mes de lanzamiento.</li>
             <li>Entrenar un modelo que entregue una estimación de éxito a partir de esos factores.</li>
-            <li>Terminar con recomendaciones simples que un estudio indie pueda usar como guía.</li>
+            <li>Terminar con recomendaciones simples que, honestamente, nosotros mismos usaríamos si lanzáramos un indie.</li>
           </ul>
         </div>
       </div>
@@ -123,10 +134,20 @@
     <div class="section__inner">
       <h2>Datos & proceso: de la API al análisis</h2>
       <p class="section__intro">
-        Todo parte con una API y termina con un set de datos que sí se puede
-        analizar. En el camino hay varias decisiones que importan: qué pedimos,
-        cómo lo guardamos, qué limpiamos y qué dejamos fuera.
+        Para que el análisis tuviera sentido, primero teníamos que confiar en
+        los datos. Por eso nos tomamos en serio el flujo completo: qué pedimos
+        a la API, cómo lo guardamos, qué limpiamos y qué preferimos dejar
+        afuera. Este fue, a grandes rasgos, el camino que seguimos.
       </p>
+
+      <!-- Distribuciones básicas -->
+      <figure class="section__figure">
+        <img src="/project-imt2200/img/figuras/01_distribuciones_basicas.png"
+             alt="Distribución de año de lanzamiento, rating total y número de reseñas">
+        <figcaption>
+          Distribuciones básicas del dataset: año de lanzamiento, rating total y número de reseñas.
+        </figcaption>
+      </figure>
 
       <div class="timeline">
         <!-- Extracción -->
@@ -135,19 +156,21 @@
           <div class="timeline__content">
             <h3>1. Descarga desde la API de IGDB</h3>
             <p>
-              Usamos la <a href="https://api-docs.igdb.com">API de IGDB</a>
-              para traer información de:
+              Decidimos usar la <a href="https://api-docs.igdb.com">API de IGDB</a>
+              como única fuente de datos y concentrarnos en entenderla bien.
+              Desde ahí trajimos información de:
             </p>
             <ul class="list">
-              <li><code>games</code>: juegos, fechas, ratings, reseñas.</li>
-              <li><code>genres</code>: géneros asociados a cada juego.</li>
-              <li><code>platforms</code>: en qué plataformas aparece cada título.</li>
-              <li><code>companies</code> e <code>involved_companies</code>: quién publica y desarrolla.</li>
+              <li>games: juegos, fechas, ratings, reseñas.</li>
+              <li>genres: géneros asociados a cada juego.</li>
+              <li>platforms: en qué plataformas aparece cada título.</li>
+              <li>companies e involved_companies: quién publica y quién desarrolla.</li>
             </ul>
             <p>
-              Las consultas se hicieron en bloques (por ejemplo, 500 juegos por
-              llamada) y se guardaron los resultados en archivos intermedios
-              para poder repetir el proceso sin depender de la conexión o de la API.
+              Para no sobrecargar la API ni depender de una sola llamada,
+              acordamos hacer consultas por bloques (por ejemplo, 500 juegos
+              por llamada) y guardar todo en archivos intermedios. Eso nos
+              permitió repetir el proceso cuando algo fallaba sin partir de cero.
             </p>
           </div>
         </div>
@@ -158,20 +181,21 @@
           <div class="timeline__content">
             <h3>2. Limpieza, orden y unión de tablas</h3>
             <p>
-              En simple: tomamos datos medio caóticos y los transformamos en algo
-              que se pueda leer con calma. La fase de orden incluía:
+              Una vez con los datos descargados, todos estuvimos de acuerdo en
+              que el estado “crudo” no era cómodo para analizarlos. Así que nos
+              organizamos para:
             </p>
             <ul class="list">
               <li>Cambiar nombres de columnas para que fueran claros y consistentes.</li>
               <li>Convertir tipos de datos (por ejemplo, fechas y enteros) para evitar errores raros.</li>
-              <li>“Desarmar” listas internas: varios géneros o plataformas por juego se pasaron a tablas normales.</li>
+              <li>Desarmar listas internas: varios géneros o plataformas por juego se pasaron a tablas normales.</li>
               <li>Crear tablas auxiliares de géneros, plataformas y compañías para no repetir información.</li>
               <li>Juntar todo en una gran tabla de juegos con claves que calzan entre sí.</li>
             </ul>
             <p>
-              También se eliminaron registros muy incompletos (por ejemplo, juegos
-              sin información mínima) para que el análisis no se llenara de casos
-              que no se pueden interpretar bien.
+              También tomamos la decisión de eliminar registros muy incompletos
+              (por ejemplo, juegos sin información mínima) para que el análisis
+              no se llenara de casos que, en la práctica, no se pueden interpretar bien.
             </p>
           </div>
         </div>
@@ -182,32 +206,44 @@
           <div class="timeline__content">
             <h3>3. Decidir qué es un juego “exitoso”</h3>
             <p>
-              Aquí viene una decisión clave: ¿cuándo decimos que un juego fue un éxito?
-              En IGDB tenemos dos pistas importantes:
+              Como grupo sabíamos que, tarde o temprano, teníamos que tomar una
+              posición sobre qué significa “éxito” en este contexto. En IGDB
+              miramos dos señales clave:
             </p>
             <ul class="list">
-              <li><code>total_rating</code>: qué tan bien está evaluado.</li>
-              <li><code>total_rating_count</code>: cuántas personas lo evaluaron.</li>
+              <li>total_rating: qué tan bien está evaluado el juego.</li>
+              <li>total_rating_count: cuántas personas lo evaluaron.</li>
             </ul>
             <p>
-              Lo primero que vimos es que más del 80&nbsp;% de los juegos no tiene
+              Lo primero que notamos es que más del 80 % de los juegos no tiene
               estas métricas completas. No es que se hayan “perdido” los datos:
-              simplemente nadie los evaluó. Eso significa que los datos faltantes
-              no son al azar, sino que suelen corresponder a juegos que casi nadie vio.
+              simplemente nadie los evaluó. Para nosotros eso fue una pista
+              importante: los datos faltantes no son al azar, suelen ser juegos
+              que casi nadie vio.
             </p>
             <p>
-              Para evitar engañarnos, trabajamos solo con juegos que sí tenían
-              rating y cantidad de reseñas. Y definimos “éxito” así:
+              Para no engañarnos, acordamos trabajar solo con juegos que sí
+              tenían rating y cantidad de reseñas. Dentro de ese grupo, definimos
+              “éxito” así:
             </p>
             <ul class="list">
               <li><strong>Rating total ≥ 75</strong>, y</li>
               <li><strong>al menos 10 reseñas</strong>.</li>
             </ul>
             <p>
-              Así nos aseguramos de no llamar “exitazo” a un juego que solo
-              evaluaron tres personas. El costo: el conjunto queda desbalanceado,
-              porque hay muchos más juegos que no cumplen ese estándar.
+              Con esto nos aseguramos de no llamar “exitazo” a un juego que solo
+              evaluaron tres personas. Sabíamos que esto dejaba el conjunto
+              desbalanceado, pero preferimos esa honestidad antes que inflar la
+              categoría de éxito.
             </p>
+
+            <figure class="section__figure">
+              <img src="/project-imt2200/img/figuras/06_juegos_contra_sin_rating.png"
+                   alt="Proporción de juegos con y sin información de rating">
+              <figcaption>
+                Proporción de juegos que sí tienen información de rating en IGDB versus los que nunca fueron evaluados.
+              </figcaption>
+            </figure>
           </div>
         </div>
       </div>
@@ -215,79 +251,110 @@
   </section>
 
   <!-- ANÁLISIS DE LA INDUSTRIA (EDA + MODELO) -->
+     <!-- ANÁLISIS DE LA INDUSTRIA (EDA + MODELO) -->
   <section id="analisis" class="section section--light">
     <div class="section__inner">
       <h2>Análisis de la industria: lo que cuentan los datos</h2>
       <p class="section__intro">
-        Con el set de datos ya limpio, pasamos a las preguntas que realmente
-        nos interesaban: ¿qué géneros funcionan mejor?, ¿cuánto ayuda tener un
-        publisher grande?, ¿existen meses “mejores” para lanzar? y, sobre todo,
-        ¿podemos anticipar algo de todo esto antes de que el juego exista?
+        Con el set de datos ya limpio, nos sentamos a mirar la industria con
+        calma. Como grupo nos interesaba responder preguntas muy concretas:
+        qué géneros parecen funcionar mejor, cuánto ayuda tener un publisher
+        grande, si hay meses “mejores” para lanzar y si tiene sentido hablar de
+        probabilidad de éxito antes de que el juego exista.
       </p>
 
-      <!-- Sub-bloque: géneros -->
+      <!-- Sub-bloque: géneros / AAA / meses -->
       <div class="grid grid--3" style="margin-bottom: 2.5rem;">
         <article class="card card--soft">
           <h3>Géneros: dónde se pelea y dónde hay nicho</h3>
           <p>
-            Los géneros <strong>Indie</strong>, <strong>Action</strong>,
-            <strong>Adventure</strong> y <strong>Platform</strong> concentran la
-            mayor parte de los lanzamientos. Son la “zona ruidosa” del mercado:
-            muchos juegos, pero no todos con buenas métricas.
+            Al revisar los datos vimos que los géneros
+            <strong>Indie</strong>, <strong>Action</strong>,
+            <strong>Adventure</strong> y <strong>Platform</strong> concentran
+            la mayor parte de los lanzamientos. Para nosotros, esta es la “zona
+            ruidosa” del mercado: hay muchísimos juegos, pero no todos llegan a
+            buenas métricas.
           </p>
           <p>
-            Géneros como <strong>RPG</strong> y <strong>Strategy</strong> tienen
-            menos títulos, pero una tasa de éxito más alta. La lectura es clara:
-            a veces es mejor apuntar a un nicho con comunidad fiel que a un
-            género saturado donde es difícil destacar.
+            En cambio, géneros como <strong>RPG</strong> y
+            <strong>Strategy</strong> tienen menos títulos, pero una tasa de
+            éxito más alta. Eso nos hizo pensar que, como estudio pequeño, a
+            veces puede ser mejor apostar por un nicho con comunidad fiel que
+            competir en un género saturado donde es muy difícil destacar.
           </p>
         </article>
 
         <article class="card card--soft">
           <h3>AAA vs No AAA vs sin publisher</h3>
           <p>
-            La ventaja de los juegos con publisher grande aparece de inmediato:
+            Otra comparación que nos interesaba era el impacto de tener un
+            publisher grande detrás. Los números nos mostraron algo que
+            intuíamos, pero aquí lo pudimos cuantificar:
           </p>
           <ul class="list">
-            <li>Con publisher AAA: alrededor de un 30–36&nbsp;% cumple el criterio de éxito.</li>
-            <li>No AAA o sin publisher: solo cerca de un 2–4&nbsp;% llega a ese nivel.</li>
+            <li>Con publisher AAA: alrededor de un 30–36 % cumple el criterio de éxito.</li>
+            <li>No AAA o sin publisher: solo cerca de un 2–4 % llega a ese nivel.</li>
           </ul>
           <p>
-            La gran diferencia no es solo la calidad, sino la visibilidad:
-            los AAA juntan muchísimas más reseñas, mientras que buena parte de
-            los indies ni siquiera alcanza las 10 evaluaciones necesarias para
-            entrar al radar.
+            Para nosotros la lectura es clara: la gran diferencia no es solo la
+            calidad, sino la visibilidad. Los AAA juntan muchísimas más reseñas,
+            mientras que buena parte de los indies ni siquiera alcanza las 10
+            evaluaciones necesarias para entrar al radar.
           </p>
         </article>
 
         <article class="card card--soft">
           <h3>Ventanas de lanzamiento</h3>
           <p>
-            También miramos en qué meses se lanza y cómo se reparte el éxito:
+            También quisimos mirar cuándo se lanzan los juegos y si eso se
+            relaciona con el éxito. Al agrupar por mes vimos que:
           </p>
           <ul class="list">
             <li><strong>Enero</strong> aparece como uno de los peores meses para indies (baja proporción de éxitos).</li>
             <li><strong>Septiembre y octubre</strong> se ven bastante mejor, con una fracción alta de juegos exitosos.</li>
           </ul>
           <p>
-            No es una regla rígida, pero sí una señal: el tercer trimestre
-            parece ser una buena ventana para estudios pequeños, siempre que se
-            acompañe de una campaña mínima para no quedar tapado por otros lanzamientos.
+            No creemos que esto sea una “regla de oro”, pero sí una señal
+            interesante: el tercer trimestre parece ser una buena ventana para
+            estudios pequeños, siempre que se acompañe de una campaña mínima
+            para no quedar tapados por otros lanzamientos.
           </p>
         </article>
       </div>
 
-      <!-- Sub-bloque: modelo predictivo dentro del mismo bloque de análisis -->
-      <div class="grid grid--2">
+      <!-- Figura principal: éxito por género y año -->
+      <figure class="section__figure">
+        <img src="/project-imt2200/img/figuras/03_exito_por_genero_y_anio_heatmap.png"
+             alt="Mapa de calor de proporción de juegos exitosos por género y año">
+        <figcaption>
+          Proporción de juegos exitosos por género y año. Vemos géneros muy concurridos
+          con tasas de éxito moderadas y otros más de nicho con menos lanzamientos pero
+          mejores resultados.
+        </figcaption>
+      </figure>
+
+      <!-- Figura: indies y plataformas -->
+      <figure class="section__figure">
+        <img src="/project-imt2200/img/figuras/05_exito_indies_por_plataforma.png"
+             alt="Indies exitosos por categoría de plataforma">
+        <figcaption>
+          Proporción de indies exitosos por categoría de plataforma: las consolas destacan,
+          seguidas de PC, mientras que móvil queda claramente atrás en este criterio.
+        </figcaption>
+      </figure>
+
+      <!-- Sub-bloque: modelo predictivo -->
+      <div class="grid grid--2" style="margin-top: 2.5rem;">
         <div>
           <h3>Un modelo para estimar la probabilidad de éxito</h3>
           <p>
-            Con todas estas variables armamos un modelo de clasificación que
-            intenta responder:
+            Con todas estas variables sobre la mesa, quisimos ir un paso más
+            allá y probar si tenía sentido armar un modelo de clasificación que
+            responda:
           </p>
           <p style="font-style: italic; margin-bottom: 0.75rem;">
-            “Dado el tipo de juego que quiero hacer, ¿qué tan probable es que
-            entre al grupo de juegos exitosos?”
+            “Dado el tipo de juego que queremos hacer, ¿qué tan probable es que
+            termine en el grupo de juegos exitosos?”
           </p>
           <ul class="list">
             <li>Usamos el año y el mes de lanzamiento como variables temporales.</li>
@@ -296,50 +363,64 @@
             <li>Marcamos si el juego pertenece a géneros “fuertes” y cuántos géneros mezcla.</li>
           </ul>
           <p>
-            El objetivo no es acertar juego por juego, sino entregar una idea
-            razonable de qué escenarios parecen más favorables según lo que ha
-            pasado en los últimos años.
+            Como equipo, nunca esperamos que el modelo “adivinara el futuro”.
+            Más bien queríamos una herramienta que nos permitiera comparar
+            escenarios de manera razonable.
           </p>
         </div>
         <div>
           <h3>Qué aprendimos con el modelo</h3>
           <p>
             Probamos modelos interpretables (como regresión logística) y otros
-            más flexibles (como Random Forest). En resumen:
+            más flexibles (como Random Forest). En resumen, lo que vimos fue:
           </p>
           <ul class="list">
             <li>
-              Los modelos confirman que “no tener publisher” baja fuerte la
+              Ambos modelos confirman que no tener publisher baja fuerte la
               probabilidad de éxito, y que PC y consolas ayudan más que el
-              ecosistema móvil en este sentido.
+              ecosistema móvil si medimos éxito vía reseñas.
             </li>
             <li>
-              Un Random Forest logra un buen equilibrio: recoge interacciones
+              El Random Forest logra un buen equilibrio: recoge interacciones
               entre género, plataforma y tiempo y alcanza un ROC-AUC cercano a 0.78.
             </li>
             <li>
               Las variables que más pesan son el tipo de estudio, la familia de
-              plataformas, el año de lanzamiento y los géneros a los que pertenece el juego.
+              plataformas, el año de lanzamiento y los géneros a los que
+              pertenece el juego.
             </li>
           </ul>
           <p>
-            En la práctica, el modelo sirve para comparar escenarios: por
-            ejemplo, ver cómo cambia la probabilidad estimada si el mismo
-            concepto se lanza en móvil vs PC, o con y sin publisher.
+            En la práctica, nos quedamos usando el modelo para hacer preguntas
+            del tipo “¿qué pasa si este mismo juego lo lanzamos en móvil en vez
+            de PC?” más que para etiquetar juegos como “ganadores” o “perdedores”.
           </p>
         </div>
       </div>
+      <!-- Figura del modelo -->
+      <figure class="section__figure">
+        <img src="/project-imt2200/img/figuras/11_importancias_logistica.png"
+             alt="Variables más importantes según la regresión logística">
+        <figcaption>
+          Importancias de variables según la regresión logística. El modelo refuerza
+          que el tipo de estudio, la familia de plataformas, el año de lanzamiento y
+          los géneros del juego son las piezas centrales para explicar el éxito, que
+          son justamente las variables desde las que construimos nuestras recomendaciones.
+        </figcaption>
+      </figure>
     </div>
   </section>
+
 
   <!-- CONCLUSIONES & PROBLEMAS -->
   <section id="conclusiones" class="section section--highlight">
     <div class="section__inner">
       <h2>Conclusiones & problemas detectados</h2>
       <p class="section__intro">
-        Después de jugar con los datos, modelar y discutir los resultados, estas
-        son las ideas que nos gustaría que se lleve alguien que está pensando
-        en lanzar un juego indie.
+        Después de trabajar con los datos, ajustar el modelo y discutir los
+        resultados, estas son las ideas con las que como grupo nos quedamos y
+        que creemos que pueden ser útiles para alguien que quiera lanzar un
+        juego indie.
       </p>
 
       <div class="grid grid--2">
@@ -349,20 +430,22 @@
             <li>
               La cancha no es pareja: los AAA tienen más marketing, más reseñas
               y, en general, más oportunidades de ser considerados “exitosos”.
+              Verlo en números nos confirmó algo que ya intuíamos.
             </li>
             <li>
               Para un indie, la visibilidad es casi tan importante como la
-              calidad. Un buen juego sin comunidad detrás puede no aparecer nunca
-              en las métricas.
+              calidad. Un buen juego sin comunidad detrás puede no aparecer
+              nunca en las métricas, y eso es algo que creemos que hay que
+              asumir desde el diseño.
             </li>
             <li>
-              Apuntar a nichos con comunidades activas (RPG, Strategy, Simulation)
-              puede ser una estrategia más realista que competir en géneros
-              genéricos y saturados.
+              Apuntar a nichos con comunidades activas (RPG, Strategy,
+              Simulation) puede ser una estrategia más realista que competir en
+              géneros genéricos y saturados.
             </li>
             <li>
               PC y consolas aparecen como plataformas más amigables para medir
-              éxito vía reseñas que el entorno móvil.
+              éxito vía reseñas que el entorno móvil, al menos bajo la óptica de IGDB.
             </li>
             <li>
               Lanzar en el tercer trimestre, especialmente entre septiembre y
@@ -370,8 +453,9 @@
               menos una campaña básica de difusión.
             </li>
             <li>
-              El modelo de probabilidad es una herramienta más: ayuda a comparar
-              caminos, pero no reemplaza ni la creatividad ni el contexto de cada proyecto.
+              Para nosotros, el modelo de probabilidad es una herramienta más:
+              ayuda a comparar caminos, pero no reemplaza ni la creatividad ni
+              el contexto de cada proyecto.
             </li>
           </ul>
         </div>
@@ -381,32 +465,37 @@
           <ul class="list">
             <li>
               Dependemos de lo que ve IGDB: no hay datos directos de ventas ni
-              del tiempo real de juego, solo ratings y reseñas dentro de esa plataforma.
+              del tiempo real de juego, solo ratings y reseñas dentro de esa
+              plataforma. Somos conscientes de que eso deja fuera parte de la historia.
             </li>
             <li>
               La definición de “éxito” que usamos (rating alto + mínimo de
-              reseñas) es razonable, pero no única. Con otros umbrales, cambian
-              los porcentajes.
+              reseñas) es una decisión que tomamos como grupo. Nos parece
+              razonable, pero sabemos que con otros umbrales los porcentajes
+              cambiarían.
             </li>
             <li>
               Muchos juegos no tienen datos porque nadie los evaluó. Eso no se
-              arregla con estadística: simplemente no dejaron huella medible.
+              arregla con estadística: simplemente no dejaron huella medible, y
+              aceptamos esa limitación.
             </li>
             <li>
               La clasificación de publishers (AAA vs No AAA) y la agrupación de
-              plataformas se hizo con reglas y listas manuales, lo que siempre
-              deja espacio a pequeños errores.
+              plataformas se hizo con reglas y listas manuales; asumimos que
+              siempre puede haber pequeños errores de etiqueta.
             </li>
             <li>
               Usar el modelo como filtro de ideas puede terminar generando
               juegos cada vez más parecidos, lo que va contra la gracia del
-              desarrollo independiente.
+              desarrollo independiente. Es algo que discutimos harto mientras
+              trabajábamos.
             </li>
             <li>
               Igual que en los ejemplos de <em>Weapons of Math Destruction</em>,
-              si se toman decisiones importantes solo por lo que dice un modelo,
-              se corre el riesgo de amplificar sesgos y dejar fuera propuestas
-              distintas o más arriesgadas.
+              sentimos que si se toman decisiones importantes solo por lo que
+              dice un modelo, se corre el riesgo de amplificar sesgos y dejar
+              fuera propuestas distintas o más arriesgadas. Por eso, preferimos
+              ver este proyecto como un punto de partida, no como una receta.
             </li>
           </ul>
         </div>
@@ -423,8 +512,6 @@
           <h3>Integrantes</h3>
           <ul class="list">
             <li>Andrés González</li>
-            <li>Kamila Salas</li>
-            <li>Daniel Salinas</li>
             <li>Luis Romero</li>
           </ul>
         </div>
