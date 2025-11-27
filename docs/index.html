@@ -14,7 +14,7 @@
       <span class="navbar__logo">🎮</span>
       <div class="navbar__text">
         <span class="navbar__title">Claves del éxito en videojuegos</span>
-        <span class="navbar__subtitle">IMT2200 · Proyecto IGDB</span>
+        <span class="navbar__subtitle">IMT2200 · Proyecto de Ciencia de Datos</span>
       </div>
     </div>
 
@@ -39,9 +39,16 @@
     <div class="hero__content">
       <h1>Claves del éxito en videojuegos con datos de IGDB</h1>
       <p>
-        Este proyecto recorre todo el ciclo de ciencia de datos para entender 
-        qué factores se asocian al éxito de un videojuego, con foco en apoyar a 
-        estudios independientes (<em>indies</em>) en la toma de decisiones.
+        Este proyecto recorre el ciclo completo de ciencia de datos para estudiar
+        qué factores se asocian al éxito de un videojuego, usando como fuente
+        principal la API oficial de IGDB. El foco está en apoyar a estudios
+        independientes que compiten en un mercado dominado por publishers AAA.
+      </p>
+      <p>
+        A partir de información de juegos, compañías, géneros y plataformas,
+        definimos una métrica de éxito basada en ratings y reseñas, analizamos
+        patrones en la industria y entrenamos un modelo que entrega una brújula
+        cuantitativa al momento de planificar un nuevo lanzamiento.
       </p>
       <div class="hero__buttons">
         <a href="#objetivos" class="btn btn--primary">Ver objetivos</a>
@@ -51,24 +58,27 @@
 
     <div class="hero__cards">
       <article class="card">
-        <h3>Datos</h3>
+        <h3>Fuente de datos</h3>
         <p>
-          Videojuegos, géneros, plataformas, empresas y métricas de éxito 
-          extraídas desde la API de IGDB.
+          Datos semi-estructurados (JSON) desde la API de IGDB:
+          juegos, compañías, plataformas, géneros e involucrados,
+          extraídos mediante un proceso de ETL paginado y reproducible.
         </p>
       </article>
       <article class="card">
-        <h3>Análisis</h3>
+        <h3>Ciencia de datos aplicada</h3>
         <p>
-          Limpieza, EDA, visualizaciones y modelos para entender qué separa 
-          a un juego exitoso del resto.
+          Limpieza, integración, análisis exploratorio y modelos
+          de clasificación para estimar la probabilidad de éxito
+          según información disponible al lanzamiento.
         </p>
       </article>
       <article class="card">
-        <h3>Acción</h3>
+        <h3>Recomendaciones</h3>
         <p>
-          Recomendaciones aterrizadas para estudios indies: qué priorizar al 
-          lanzar un nuevo juego.
+          Síntesis de hallazgos en recomendaciones concretas:
+          elección de publisher, nichos de género, plataformas
+          y ventanas de lanzamiento más favorables para indies.
         </p>
       </article>
     </div>
@@ -79,29 +89,30 @@
     <div class="section__inner">
       <h2>Objetivos del proyecto</h2>
       <p class="section__intro">
-        Aquí pega tu texto de objetivos (general y específicos). 
-        Deja claro qué pregunta de negocio quieren responder y para quién
-        están pensando las recomendaciones.
+        La motivación central es entender qué separa a un juego exitoso del resto
+        en un mercado masivo y desbalanceado, donde la mayoría de los títulos
+        pasa desapercibida. A partir de esa pregunta se definieron un objetivo
+        general y varios objetivos específicos.
       </p>
 
       <div class="grid grid--2">
         <div>
           <h3>Objetivo general</h3>
           <p>
-            <!-- Reemplaza este párrafo por tu objetivo general -->
-            Identificar qué características (plataforma, género, fecha de lanzamiento,
-            etc.) se asocian al éxito de un videojuego y cómo esto puede guiar a
-            estudios independientes en sus decisiones.
+            Identificar, a partir de datos de IGDB, los factores clave asociados
+            al éxito de un videojuego (ratings y visibilidad) y traducir estos
+            patrones en recomendaciones accionables para estudios independientes.
           </p>
         </div>
         <div>
           <h3>Objetivos específicos</h3>
           <ul class="list">
-            <!-- Reemplaza / ajusta estos bullets con tus propios objetivos -->
-            <li>Caracterizar el ecosistema reciente de videojuegos usando datos de IGDB.</li>
-            <li>Evaluar qué variables se relacionan con mejores métricas de éxito.</li>
-            <li>Construir un modelo que estime la probabilidad de éxito de un juego.</li>
-            <li>Traducir los resultados en recomendaciones prácticas para estudios indies.</li>
+            <li>Diseñar y ejecutar un proceso de extracción de datos desde la API de IGDB respetando buenas prácticas de ingeniería de datos.</li>
+            <li>Limpiar, transformar y unificar tablas de juegos, compañías, géneros, plataformas e involucrados en un dataset analizable.</li>
+            <li>Definir una métrica operacional de “éxito” basada en ratings y reseñas de la comunidad.</li>
+            <li>Describir patrones de éxito por género, tipo de estudio (AAA vs No AAA / sin publisher), plataforma y mes de lanzamiento.</li>
+            <li>Entrenar un modelo supervisado que estime la probabilidad de éxito a partir de características conocidas al lanzamiento.</li>
+            <li>Explorar sesgos y limitaciones del enfoque, proponiendo recomendaciones con mirada crítica e informada.</li>
           </ul>
         </div>
       </div>
@@ -113,42 +124,79 @@
     <div class="section__inner">
       <h2>Datos & Metodología</h2>
       <p class="section__intro">
-        Resume aquí de forma simple cómo obtuvieron los datos, qué tablas usaron,
-        y el flujo general (ETL, limpieza, EDA, modelado). No es necesario entrar
-        en todo el detalle técnico del notebook.
+        El proyecto se estructura en un flujo tipo ETL + EDA + modelamiento.
+        Cada fase está respaldada por un notebook específico y scripts de apoyo,
+        garantizando reproducibilidad y trazabilidad de las decisiones.
       </p>
 
       <div class="timeline">
         <div class="timeline__item">
           <div class="timeline__dot"></div>
           <div class="timeline__content">
-            <h3>1. Extracción de datos (ETL)</h3>
+            <h3>1. Extracción desde la API de IGDB</h3>
             <p>
-              <!-- Pega aquí un resumen corto de tu sección de extracción -->
-              Uso de la API de IGDB para descargar información de juegos, géneros, 
-              plataformas y compañías, guardando los datos en formato reproducible.
+              Se trabajó exclusivamente con la API oficial de IGDB como fuente
+              secundaria y externa. A diferencia del web scraping, esto ofrece
+              datos semi-estructurados (JSON), esquemas documentados y relaciones
+              explícitas entre juegos, compañías, plataformas y géneros.
+            </p>
+            <p>
+              Se implementó un proceso de descarga paginada por lotes
+              (<code>limit = 500</code> y desplazamiento vía <code>offset</code>)
+              sobre endpoints como <code>games</code>, <code>genres</code>,
+              <code>platforms</code>, <code>companies</code> e
+              <code>involved_companies</code>, respetando límites de tasa y
+              guardando resultados en archivos intermedios.
             </p>
           </div>
         </div>
+
         <div class="timeline__item">
           <div class="timeline__dot"></div>
           <div class="timeline__content">
-            <h3>2. Limpieza & transformación</h3>
+            <h3>2. Limpieza y transformación</h3>
             <p>
-              <!-- Resumen de las decisiones clave de limpieza -->
-              Normalización de columnas, manejo de listas incrustadas (géneros, 
-              plataformas), filtrado por ventana temporal y eliminación de registros 
-              con información insuficiente.
+              La fase de data wrangling incluyó:
+            </p>
+            <ul class="list">
+              <li>Normalización de nombres de columnas y tipos de datos.</li>
+              <li>Explosión de listas anidadas (por ejemplo, múltiples géneros y plataformas por juego).</li>
+              <li>Construcción de tablas auxiliares para géneros, plataformas, empresas y compañías involucradas.</li>
+              <li>Unión de estas tablas en un dataset de juegos listo para análisis.</li>
+            </ul>
+            <p>
+              También se depuraron registros claramente incompletos o inconsistentes
+              para reducir ruido y mantener un universo de juegos evaluables.
             </p>
           </div>
         </div>
+
         <div class="timeline__item">
           <div class="timeline__dot"></div>
           <div class="timeline__content">
-            <h3>3. EDA y selección de variables</h3>
+            <h3>3. Definición de “éxito” y preparación para el modelo</h3>
             <p>
-              Exploración de distribuciones, correlaciones y definición de las 
-              variables más informativas para el modelo de éxito.
+              Se observaron altos niveles de <code>NaN</code> en
+              <code>total_rating</code> y <code>total_rating_count</code>
+              (más del 80 %). Se concluyó que el mecanismo de datos faltantes
+              es MNAR (Missing Not At Random): un juego sin rating usualmente
+              es un juego invisible para la comunidad.
+            </p>
+            <p>
+              Para definir el target se trabajó solo con juegos “evaluables”,
+              es decir, aquellos con <code>total_rating</code> y
+              <code>total_rating_count</code> presentes. Se declaró un juego
+              como exitoso si:
+            </p>
+            <ul class="list">
+              <li><code>total_rating ≥ 75</code>, y</li>
+              <li><code>total_rating_count ≥ 10</code>.</li>
+            </ul>
+            <p>
+              Esto evita falsos positivos basados en pocas reseñas y exige un
+              mínimo de atención comunitaria. Solo entre un 13–16 % de los juegos
+              evaluables cumplen este criterio, resultando en un dataset
+              desbalanceado para la etapa de modelado.
             </p>
           </div>
         </div>
@@ -161,35 +209,74 @@
     <div class="section__inner">
       <h2>Resultados del análisis exploratorio</h2>
       <p class="section__intro">
-        Muestra aquí los hallazgos más importantes del EDA: patrones por género, 
-        plataformas, ventanas de lanzamiento, etc. Idealmente acompañados por 
-        algunas imágenes exportadas de tus gráficas.
+        El EDA buscó responder preguntas de negocio concretas: qué géneros
+        dominan, cuánta diferencia hay entre AAA e indies, cómo influye el
+        estilo de juego en la visibilidad y si existen ventanas de lanzamiento
+        más favorables para los estudios pequeños.
       </p>
 
       <div class="grid grid--3">
         <article class="card card--soft">
-          <h3>Patrones por género</h3>
+          <h3>Géneros: volumen vs. tasa de éxito</h3>
           <p>
-            <!-- Pega 2–3 frases clave de tu notebook -->
-            Por ejemplo: géneros con mayor presencia en juegos exitosos, diferencias
-            entre indies y AAA, etc.
+            Los géneros <strong>Indie</strong>, <strong>Action</strong>,
+            <strong>Adventure</strong> y <strong>Platform</strong> concentran
+            gran parte de los lanzamientos recientes, pero no siempre la mejor
+            proporción de éxitos.
+          </p>
+          <p>
+            El género “Indie” aparece como altamente saturado: muchísimos juegos,
+            pero pocos alcanzan el estándar de rating + reseñas. En cambio,
+            géneros como <strong>RPG</strong> y <strong>Strategy</strong> tienen
+            menos títulos, pero una tasa de éxito relativamente alta y estable
+            en el tiempo.
           </p>
         </article>
+
         <article class="card card--soft">
-          <h3>Ventanas de lanzamiento</h3>
+          <h3>AAA vs No AAA / sin publisher</h3>
           <p>
-            Explica si hay periodos del año o tendencias temporales donde se 
-            concentran más lanzamientos exitosos.
+            Los datos muestran una brecha fuerte entre juegos respaldados por
+            publishers AAA y el resto:
+          </p>
+          <ul class="list">
+            <li>Juegos con publisher AAA: alrededor de <strong>30–36 %</strong> de éxito.</li>
+            <li>Juegos No AAA o sin publisher: apenas <strong>2–4 %</strong> de éxito.</li>
+          </ul>
+          <p>
+            La visibilidad, medida como <code>total_rating_count</code>, es el
+            factor crítico: los AAA acumulan muchas más reseñas, mientras que
+            una gran proporción de indies nunca alcanza las 10 reseñas mínimas
+            para ser considerados exitosos, incluso cuando el rating promedio
+            es bueno.
           </p>
         </article>
+
         <article class="card card--soft">
-          <h3>Plataformas & ecosistema</h3>
+          <h3>Ventanas de lanzamiento y estacionalidad</h3>
           <p>
-            Comenta cómo se distribuye el éxito según plataforma (PC, consolas, 
-            móviles) y qué implica para un estudio indie.
+            Al observar la proporción de juegos exitosos por mes de lanzamiento,
+            aparece un patrón interesante:
+          </p>
+          <ul class="list">
+            <li><strong>Enero (~8 %)</strong> es el peor mes para indies, probablemente por la “resaca” post-navidad.</li>
+            <li><strong>Septiembre y octubre (~13 %)</strong> se posicionan entre los meses con mayor proporción de éxitos.</li>
+          </ul>
+          <p>
+            Los meses con muy pocos lanzamientos se interpretan con cautela,
+            pero en general el tercer trimestre (Q3) parece ofrecer mejores
+            oportunidades relativas para títulos independientes.
           </p>
         </article>
       </div>
+
+      <!-- Puedes agregar tus gráficos acá -->
+      <!--
+      <div class="grid grid--2" style="margin-top: 2rem;">
+        <img src="img/mapa_calor_generos.png" alt="Mapa de calor de éxito por género y año" class="card" />
+        <img src="img/aaa_noaaa.png" alt="Comparación AAA vs No AAA" class="card" />
+      </div>
+      -->
     </div>
   </section>
 
@@ -198,27 +285,56 @@
     <div class="section__inner">
       <h2>Modelo predictivo de éxito</h2>
       <p class="section__intro">
-        Resume el modelo que usaron (clasificación / regresión), las variables 
-        más importantes y cómo interpretan sus métricas. No hace falta mostrar 
-        todas las tablas técnicas, solo lo esencial para entender el mensaje.
+        Sobre el subconjunto de juegos evaluables se construyeron modelos de
+        clasificación para estimar:
+      </p>
+      <p style="font-style: italic; margin-bottom: 1.5rem;">
+        P(exitoso = 1 | X) &nbsp;&nbsp; donde X recoge características conocidas
+        al momento del lanzamiento (género, tipo de estudio, plataformas, año, etc.).
       </p>
 
       <div class="grid grid--2">
         <div>
-          <h3>Enfoque de modelamiento</h3>
+          <h3>Ingeniería de características</h3>
           <ul class="list">
-            <!-- Ajusta según tu proyecto real -->
-            <li>Tipo de modelo utilizado (ej. regresión logística, árbol, etc.).</li>
-            <li>Definición de la variable objetivo (éxito / no éxito, score, etc.).</li>
-            <li>Estrategia de entrenamiento y validación.</li>
+            <li>Variables temporales: año y mes de lanzamiento.</li>
+            <li>Tipo de estudio: AAA, No AAA, sin publisher.</li>
+            <li>Estructura del juego: número de géneros, pertenencia a géneros “top”.</li>
+            <li>Plataformas agregadas a categorías (PC, Consola, Móvil, Portátil).</li>
+            <li>Métricas derivadas de ratings y reseñas cuando están disponibles.</li>
           </ul>
+          <p>
+            El dataset resultante es desbalanceado (pocos éxitos), lo que se
+            tuvo en cuenta al evaluar las métricas del modelo.
+          </p>
         </div>
         <div>
-          <h3>Métricas & variables clave</h3>
+          <h3>Modelos entrenados y desempeño</h3>
           <p>
-            Destaca las métricas principales (accuracy, recall, F1, etc.) y 
-            menciona qué variables tuvieron más peso en el modelo (por ejemplo, 
-            rating promedio, número de plataformas, presencia en cierto género).
+            Se trabajó con dos enfoques complementarios:
+          </p>
+          <ul class="list">
+            <li>
+              <strong>Regresión logística:</strong> modelo base interpretativo.
+              Confirmó que pertenecer a la categoría “sin publisher” reduce
+              fuertemente la probabilidad de éxito, mientras que lanzar en
+              consola (vs móvil) y ciertos géneros aumentan esa probabilidad.
+            </li>
+            <li>
+              <strong>Random Forest:</strong> modelo no lineal capaz de capturar
+              interacciones. Alcanzó un <strong>ROC-AUC cercano a 0.78</strong>,
+              superando levemente a la regresión logística.
+            </li>
+          </ul>
+          <p>
+            El análisis de importancia de variables destacó como factores más
+            influyentes: tipo de estudio, categoría de plataforma, pertenencia
+            a géneros principales y año de lanzamiento.
+          </p>
+          <p>
+            El modelo no busca predecir el futuro con exactitud, sino servir
+            como brújula para comparar escenarios (ej.: mismo concepto en PC vs
+            móvil, con o sin publisher).
           </p>
         </div>
       </div>
@@ -230,28 +346,68 @@
     <div class="section__inner">
       <h2>Conclusiones principales</h2>
       <p class="section__intro">
-        Aquí va tu <strong>resumen de conclusiones</strong>: qué aprendieron, qué 
-        patrones son más importantes y qué decisiones puede tomar alguien con esta 
-        información. Es el corazón de la página.
+        A partir del análisis cuantitativo y del modelamiento, se sintetizan
+        aquí las principales lecciones para estudios de videojuegos
+        independientes que quieran diseñar y lanzar un nuevo título.
       </p>
 
       <div class="grid grid--2">
         <div>
-          <h3>Hallazgos sobre la industria</h3>
+          <h3>Lecturas sobre la industria</h3>
           <ul class="list">
-            <!-- Reemplaza estos bullets por tus conclusiones reales -->
-            <li>Qué factores se repiten en los juegos más exitosos.</li>
-            <li>Diferencias claras entre juegos indies y grandes estudios.</li>
-            <li>Rol de la plataforma, género y momento de lanzamiento.</li>
+            <li>
+              La industria es altamente desigual: los AAA concentran la
+              visibilidad y una parte importante de los éxitos, mientras la
+              mayoría de los indies queda en el limbo de “éxito desconocido”
+              por falta de reseñas.
+            </li>
+            <li>
+              Sin visibilidad no hay éxito medible: incluso con buenas
+              calificaciones, muchos indies nunca alcanzan el umbral de
+              reseñas necesario para ser considerados exitosos.
+            </li>
+            <li>
+              Géneros de nicho como <strong>Strategy</strong>,
+              <strong>Simulation</strong> y <strong>RPG</strong> mantienen
+              comunidades comprometidas, lo que mejora la probabilidad de
+              acumular reseñas y alcanzar los criterios de éxito.
+            </li>
+            <li>
+              La elección de plataforma y ventana de lanzamiento no es neutra:
+              Q3 (septiembre–octubre) y plataformas como PC y consolas ofrecen
+              mejores probabilidades relativas para estudios pequeños.
+            </li>
           </ul>
         </div>
         <div>
-          <h3>Recomendaciones para estudios indies</h3>
+          <h3>Recomendaciones estratégicas para indies</h3>
           <ul class="list">
-            <!-- Recomendaciones accionables para tu audiencia -->
-            <li>En qué plataformas tiene más sentido enfocarse al inicio.</li>
-            <li>Qué tipo de géneros parecen ofrecer mejores oportunidades.</li>
-            <li>Buenas prácticas sugeridas según sus resultados.</li>
+            <li>
+              <strong>Publisher y marketing:</strong> la variable más asociada
+              al fracaso es “no tener publisher”. Si no se trabaja con un
+              publisher, es imprescindible invertir en marketing y comunidad.
+            </li>
+            <li>
+              <strong>Estrategia de nicho:</strong> evitar competir en un
+              “océano rojo” genérico de juegos etiquetados como “Indie” o
+              “Action” sin diferenciación clara. Apuntar a nichos con
+              comunidades fieles puede ser más rentable.
+            </li>
+            <li>
+              <strong>Plataformas:</strong> no depender exclusivamente de
+              móviles si el objetivo es prestigio crítico y visibilidad basada
+              en reseñas. PC y consolas aparecen como apuestas más seguras.
+            </li>
+            <li>
+              <strong>Momento del lanzamiento:</strong> planificar el lanzamiento
+              hacia el tercer trimestre, evitando enero salvo que exista una
+              estrategia muy clara para compensar la baja demanda.
+            </li>
+            <li>
+              <strong>Uso del modelo:</strong> emplear la probabilidad de éxito
+              como una señal adicional para comparar escenarios, no como una
+              orden que dicte qué ideas descartar.
+            </li>
           </ul>
         </div>
       </div>
@@ -263,25 +419,60 @@
     <div class="section__inner">
       <h2>¿Qué podría salir mal?</h2>
       <p class="section__intro">
-        Sección para cuestionar los resultados: sesgos de los datos, limitaciones
-        del modelo y riesgos de usar estas conclusiones de forma acrítica.
+        Siguiendo la rúbrica de integridad académica, se explicitan las
+        principales limitaciones y riesgos de este tipo de análisis, tanto a
+        nivel técnico como ético.
       </p>
 
       <div class="grid grid--2">
         <div>
-          <h3>Limitaciones de los datos</h3>
-          <p>
-            Comenta posibles sesgos de cobertura, calidad de ratings, selección 
-            de juegos, etc.
-          </p>
+          <h3>Limitaciones de los datos y diseño</h3>
+          <ul class="list">
+            <li>
+              <strong>Dependencia de IGDB:</strong> no se incluyen métricas
+              directas de ventas ni uso en tiempo real (como jugadores
+              concurrentes). Los resultados dependen de cómo IGDB recopila y
+              modera su información.
+            </li>
+            <li>
+              <strong>Definición de éxito:</strong> usar “rating ≥ 75” y
+              “≥ 10 reseñas” es razonable pero no único. Cambiar estos umbrales
+              puede alterar la proporción de éxitos y el desempeño del modelo.
+            </li>
+            <li>
+              <strong>Datos faltantes MNAR:</strong> los juegos sin ratings
+              suelen ser los menos visibles; esto introduce sesgos que no se
+              pueden eliminar solo con técnicas estadísticas.
+            </li>
+            <li>
+              <strong>Heurísticas en publishers y plataformas:</strong> la lista
+              de publishers AAA es manual y la clasificación de plataformas se
+              basa en nombres de texto, por lo que pueden existir errores
+              puntuales de etiquetado.
+            </li>
+          </ul>
         </div>
         <div>
-          <h3>Riesgos éticos y de interpretación</h3>
-          <p>
-            Explica qué decisiones equivocadas podrían tomarse si se ignoran las 
-            limitaciones, conectando con la parte de integridad y “Weapons of 
-            Math Destruction” si corresponde.
-          </p>
+          <h3>Riesgos éticos y de mal uso</h3>
+          <ul class="list">
+            <li>
+              Utilizar el modelo como “oráculo” puede llevar a descartar ideas
+              creativas solo porque no calzan con el patrón histórico; esto
+              refuerza inercias y va contra la innovación.
+            </li>
+            <li>
+              Si los datos históricos reflejan sesgos (por género, región,
+              idioma, plataforma, etc.), un modelo entrenado sobre ellos puede
+              amplificar esos sesgos y volver más difícil que propuestas
+              distintas obtengan visibilidad.
+            </li>
+            <li>
+              De manera análoga a los ejemplos de <em>Weapons of Math Destruction</em>,
+              el uso acrítico de modelos en la toma de decisiones creativas
+              puede terminar homogeneizando la oferta y perjudicando a quienes
+              se salen de la norma.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -295,24 +486,24 @@
         <div>
           <h3>Integrantes</h3>
           <ul class="list">
-            <!-- Escribe aquí los nombres de tu grupo -->
-            <li>Nombre 1</li>
-            <li>Nombre 2</li>
-            <li>Nombre 3</li>
-            <li>Nombre 4</li>
+            <li>Andrés González</li>
+            <li>Luis Romero</li>
           </ul>
         </div>
         <div>
-          <h3>Repositorio & notebook</h3>
+          <h3>Repositorio & materiales</h3>
           <p>
-            Puedes revisar todo el código y el análisis detallado en los siguientes enlaces:
+            El código completo, los notebooks y los datos procesados del
+            proyecto están disponibles en los siguientes enlaces:
           </p>
           <ul class="list">
             <li><a href="TU_LINK_REPO" target="_blank">Repositorio en GitHub</a></li>
             <li><a href="LINK_NOTEBOOK_CONCLUSIONES" target="_blank">Notebook de conclusiones</a></li>
-            <!-- Agrega el link del video cuando lo tengas -->
             <li><a href="LINK_VIDEO" target="_blank">Video de presentación</a></li>
           </ul>
+          <p style="font-size: 0.85rem; color: #9ca3af;">
+            *Reemplaza estos enlaces con las URLs reales de tu proyecto.
+          </p>
         </div>
       </div>
     </div>
