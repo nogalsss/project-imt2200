@@ -3,6 +3,9 @@
 Análisis de factores asociados al éxito de un videojuego utilizando datos de **IGDB**, con el objetivo de entregar recomendaciones claras para estudios independientes sobre géneros, plataformas y ventanas de lanzamiento.
 
 ---
+LINK PAGINA: [https://nogalsss.github.io/project-imt2200/]
+LINK VIDEO: [https://drive.google.com/file/d/1SpD3Q1o_3xcA2x1i9sEPI7BUfOzAs29h/view?usp=drive_link]
+---
 
 ## 📁 Estructura del repositorio
 
